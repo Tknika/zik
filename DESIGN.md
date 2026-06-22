@@ -1,7 +1,7 @@
 ---
 version: 2
 name: Zik — Zibersegurtasuna Ikastetxeetan
-description: Design system inspired by code.claude.com — warm, editorial, book-like
+description: warm, editorial, book-like
 colors:
   paper: "#fdfcf7"
   paper-hover: "#f5f2ec"

@@ -17,7 +17,7 @@ Ez da entziklopedia bat. Ez da lege-testu bat. **Egiteko gida bat da.**
 
 ## Hasi hemen
 
-<a href="./gobernantza/" class="zik-start-button">🚀 Hasi orain →</a>
+<a href="./gobernantza/" class="zik-start-button">Hasi orain &rarr;</a>
 
 Sei atal, lehenengotik hasita. Ez duzu ezer jakin behar aldez aurretik.
 

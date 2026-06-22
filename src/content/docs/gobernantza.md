@@ -33,7 +33,7 @@ inorena ez delako.
 - Zehaztu bere egitekoak.
 - Zuzendaritzak sinatu behar du.
 
-[📄 Deskargatu izendapen-txantiloia (DOCX/PDF)](/zik/templates/#arduradunaren-izendapena)
+[Deskargatu izendapen-txantiloia (DOCX/PDF)](/zik/templates/#arduradunaren-izendapena)
 
 ### 2. Idatzi segurtasun-politika
 
@@ -49,14 +49,14 @@ Politikak gutxienez jaso behar du:
 
 Zuzendaritzak sinatu behar du.
 
-[📄 Deskargatu politika-txantiloia (DOCX/PDF)](/zik/templates/#segurtasun-politika)
+[Deskargatu politika-txantiloia (DOCX/PDF)](/zik/templates/#segurtasun-politika)
 
 ### 3. Sortu kontaktuen zerrenda
 
 Idatzi barne- eta kanpo-kontaktuen zerrenda, intzidentzia bat gertatuz gero
 nori deitu jakiteko. Jarri ikusgai eta partekatu posta elektronikoz.
 
-[📄 Deskargatu kontaktuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#kontaktuen-zerrenda)
+[Deskargatu kontaktuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#kontaktuen-zerrenda)
 
 ### 4. Sortu segurtasun-batzordea (hautazkoa, baina gomendatua)
 
@@ -73,7 +73,7 @@ hurrengo urratsak.
 RACI matrizeak argitzen du nork zer egiten duen. Bereziki erabilgarria da
 hainbat pertsonak parte hartzen dutenean.
 
-[📄 Deskargatu RACI matrizea (DOCX/PDF)](/zik/templates/#raci-matrizea)
+[Deskargatu RACI matrizea (DOCX/PDF)](/zik/templates/#raci-matrizea)
 
 ---
 

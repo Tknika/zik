@@ -43,7 +43,7 @@ definitzeko:
   (Proxmox Backup Server, Veeam…).
 - **Arduradunak** eta **komunikazioa** berreskurapenean zehar.
 
-[📄 Deskargatu berreskurapen-prozedura (DOCX/PDF)](/zik/templates/#berreskurapen-prozedura)
+[Deskargatu berreskurapen-prozedura (DOCX/PDF)](/zik/templates/#berreskurapen-prozedura)
 
 ### 2. Probatu hilero
 

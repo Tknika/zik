@@ -59,7 +59,7 @@ Ezarri babeskopia-politika idatzi bat:
 - **Maiztasuna**: egunero, gauez.
 - **Berreskurapen-probak**: hilero.
 
-[📄 Deskargatu babeskopien politika-txantiloia (DOCX/PDF)](/zik/templates/#babeskopien-politika)
+[Deskargatu babeskopien politika-txantiloia (DOCX/PDF)](/zik/templates/#babeskopien-politika)
 
 ---
 

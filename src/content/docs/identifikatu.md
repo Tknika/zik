@@ -32,7 +32,7 @@ dira. Idatzi gutxienez:
 - **Inprimagailuak**: sarera konektatuta badaude.
 - **Hodeiko zerbitzuak**: Office 365, Google Workspace, Moodle, Dropbox…
 
-#### 💡 Tresna erabilgarriak
+#### Tresna erabilgarriak
 
 Aktiboen zerrenda kudeatzeko:
 
@@ -61,7 +61,7 @@ Pentsatu non dauden datu sentikorrak:
 Ez duzu analisi formalik egin behar. Bete **arriskuen zerrenda**
 — identifikatu 3-5 arrisku eta parekatu arintze-neurri sinpleekin:
 
-[📄 Deskargatu arriskuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#arriskuen-zerrenda)
+[Deskargatu arriskuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#arriskuen-zerrenda)
 
 ### 4. Egin arriskuen analisi formala (gomendatua)
 
@@ -69,8 +69,8 @@ Arriskuen zerrendatik haratago joan nahi baduzu, Margerit-en
 oinarritutako arriskuen analisia eta CCN-CERTen mehatxuen katalogoa
 erabil ditzakezu:
 
-[📄 Arriskuen analisia (Margerit)](/zik/templates/#arriskuen-analisia)  
-[📄 Mehatxuen katalogoa (CCN-CERT)](/zik/templates/#mehatxuen-katalogoa)
+[Arriskuen analisia (Margerit)](/zik/templates/#arriskuen-analisia)  
+[Mehatxuen katalogoa (CCN-CERT)](/zik/templates/#mehatxuen-katalogoa)
 
 ---
 
