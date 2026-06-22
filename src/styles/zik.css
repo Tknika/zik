@@ -4,24 +4,24 @@
 /* ── Design tokens (always set on :root for dark mode fallback) ── */
 :root {
   /* Core palette */
-  --zik-primary: #1a2942;
-  --zik-primary-light: #243b5e;
-  --zik-primary-dark: #0f1a2b;
-  --zik-accent: #c8483f;
-  --zik-accent-hover: #a53830;
-  --zik-accent-pale: #fef0ef;
-  --zik-surface: #f8f9fb;
-  --zik-surface-alt: #eef0f4;
-  --zik-text: #1a1c1e;
-  --zik-text-secondary: #4a4e54;
-  --zik-text-muted: #6c7278;
-  --zik-text-on-dark: #e8eaed;
-  --zik-text-on-dark-muted: #9aa0a8;
-  --zik-border: #dde0e5;
-  --zik-border-light: #edf0f4;
-  --zik-success: #2d7d46;
-  --zik-warning: #b87a1f;
-  --zik-danger: #c8483f;
+  --zik-primary: #1e293b;
+  --zik-primary-light: #334155;
+  --zik-primary-dark: #0f172a;
+  --zik-accent: #0d9488;
+  --zik-accent-hover: #0f766e;
+  --zik-accent-pale: #f0fdfa;
+  --zik-surface: #f8fafc;
+  --zik-surface-alt: #f1f5f9;
+  --zik-text: #0f172a;
+  --zik-text-secondary: #475569;
+  --zik-text-muted: #64748b;
+  --zik-text-on-dark: #e2e8f0;
+  --zik-text-on-dark-muted: #94a3b8;
+  --zik-border: #cbd5e1;
+  --zik-border-light: #e2e8f0;
+  --zik-success: #15803d;
+  --zik-warning: #b45309;
+  --zik-danger: #dc2626;
 
   /* Typography */
   --zik-font: 'Inter', system-ui, -apple-system, sans-serif;
@@ -41,7 +41,7 @@
 
   --sl-color-accent-high: var(--zik-accent);
   --sl-color-accent: var(--zik-accent);
-  --sl-color-accent-low: #fef5f4;
+  --sl-color-accent-low: #ccfbf1;
 
   --sl-color-white: #ffffff;
   --sl-color-black: var(--zik-primary);
@@ -76,7 +76,7 @@
 
   --sl-color-accent-high: var(--zik-accent);
   --sl-color-accent: var(--zik-accent);
-  --sl-color-accent-low: #2a1514;
+  --sl-color-accent-low: #134e4a;
 
   --sl-color-black: #0d1117;
   --sl-color-gray-7: #0d1117;
@@ -308,12 +308,12 @@
 
 .starlight-aside--note,
 .starlight-aside--tip {
-  border-left: 4px solid #2563eb !important;
+  border-left: 4px solid #0d9488 !important;
 }
 
 .starlight-aside--caution,
 .starlight-aside--danger {
-  border-left: 4px solid var(--zik-accent) !important;
+  border-left: 4px solid #dc2626 !important;
 }
 
 /* ══════════════════════════════════════════ */
