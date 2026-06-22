@@ -440,20 +440,26 @@ aside.right-sidebar h2 {
 .sl-markdown-content table {
   border-collapse: separate;
   border-spacing: 0;
-  border-radius: var(--zik-radius-md);
+  border-radius: var(--zik-radius-lg);
   overflow: hidden;
   border: 1px solid var(--zik-border);
   width: 100%;
-  font-size: 0.9375rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, .04);
+}
+
+:root[data-theme="dark"] .sl-markdown-content table {
+  border-color: var(--sl-color-gray-5);
 }
 
 .sl-markdown-content thead th {
-  background-color: #0e0e0e;
-  color: #ffffff;
+  background-color: var(--zik-ink);
+  color: var(--zik-white);
   font-weight: 600;
-  font-size: 0.8125rem;
-  text-transform: none;
-  letter-spacing: 0.02em;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
   padding: 0.625rem 1rem;
   text-align: left;
   border: none;
@@ -462,6 +468,12 @@ aside.right-sidebar h2 {
 .sl-markdown-content tbody td {
   padding: 0.625rem 1rem;
   border-bottom: 1px solid var(--zik-border-light);
+  background-color: var(--zik-white);
+}
+
+:root[data-theme="dark"] .sl-markdown-content tbody td {
+  border-bottom-color: var(--sl-color-gray-5);
+  background-color: var(--sl-color-bg);
 }
 
 .sl-markdown-content tbody tr:last-child td {
@@ -469,7 +481,11 @@ aside.right-sidebar h2 {
 }
 
 .sl-markdown-content tbody tr:nth-child(even) td {
-  background-color: var(--zik-surface);
+  background-color: var(--zik-surface-alt);
+}
+
+:root[data-theme="dark"] .sl-markdown-content tbody tr:nth-child(even) td {
+  background-color: var(--sl-color-gray-6);
 }
 
 /* ══════════════════════════════════════════ */
