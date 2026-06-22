@@ -1,7 +1,7 @@
 /* Zik — Custom Starlight theme */
-/* Implements DESIGN.md tokens */
+/* Implements DESIGN.md tokens — Charcoal + Teal palette */
 
-/* ── Design tokens (always set on :root for dark mode fallback) ── */
+/* ── Design tokens ── */
 :root {
   /* Core palette */
   --zik-primary: #1e293b;
@@ -33,35 +33,44 @@
   --zik-radius-lg: 12px;
 }
 
-/* ── Override Starlight: LIGHT theme ── */
+/* ══════════════════════════════════════════ */
+/*  STARLIGHT OVERRIDES — Light theme       */
+/*  (Dark chrome sidebar + white content)    */
+/* ══════════════════════════════════════════ */
+
 :root,
 :root[data-theme="light"] {
   --sl-font: var(--zik-font);
   --sl-font-mono: var(--zik-font-mono);
 
+  /* Accent */
   --sl-color-accent-high: var(--zik-accent);
   --sl-color-accent: var(--zik-accent);
   --sl-color-accent-low: #ccfbf1;
-
-  --sl-color-white: #ffffff;
-  --sl-color-black: var(--zik-primary);
-  --sl-color-gray-1: var(--zik-text);
-  --sl-color-gray-2: var(--zik-text-secondary);
-  --sl-color-gray-3: var(--zik-text-muted);
-  --sl-color-gray-4: var(--zik-border);
-  --sl-color-gray-5: var(--zik-border-light);
-  --sl-color-gray-6: var(--zik-surface-alt);
-  --sl-color-gray-7: #ffffff;
-
-  --sl-color-text: var(--zik-text);
   --sl-color-text-accent: var(--zik-accent);
   --sl-color-text-invert: #ffffff;
 
+  /* Light background grays (for white content area) */
+  --sl-color-white: #ffffff;
+  --sl-color-gray-1: var(--zik-text);          /* #0f172a — body text */
+  --sl-color-gray-2: var(--zik-text-secondary); /* #475569 — secondary text */
+  --sl-color-gray-3: var(--zik-text-muted);     /* #64748b — muted text */
+  --sl-color-gray-4: var(--zik-border);         /* #cbd5e1 — borders */
+  --sl-color-gray-5: var(--zik-border-light);   /* #e2e8f0 — light borders */
+  --sl-color-gray-6: var(--zik-surface-alt);    /* #f1f5f9 — alt surface */
+  --sl-color-gray-7: #ffffff;                   /* white */
+
+  /* Backgrounds */
+  --sl-color-black: var(--zik-primary);      /* #1e293b — dark surfaces */
   --sl-color-bg: #ffffff;
   --sl-color-bg-nav: var(--zik-primary);
   --sl-color-bg-sidebar: var(--zik-primary);
   --sl-color-bg-inline-code: var(--zik-surface);
 
+  /* Text on dark backgrounds */
+  --sl-color-text: var(--zik-text);
+
+  /* Hairlines */
   --sl-color-hairline: var(--zik-border-light);
   --sl-color-hairline-light: var(--zik-border-light);
   --sl-color-hairline-shade: var(--zik-border);
@@ -69,7 +78,92 @@
   --sl-nav-height: 3.5rem;
 }
 
-/* ── Override Starlight: DARK theme ── */
+/* ══════════════════════════════════════════ */
+/*  FIX: Sidebar & dark chrome text colors   */
+/*  Gray-2/3 are designed for light bg,      */
+/*  so sidebar links need explicit overrides */
+/* ══════════════════════════════════════════ */
+
+/* Sidebar link text — use light-on-dark palette */
+nav.sidebar a[href],
+div.sidebar-content a[href] {
+  color: #e2e8f0; /* slate-200, 6.5:1 on #1e293b */
+}
+nav.sidebar a[href]:hover,
+div.sidebar-content a[href]:hover {
+  color: #ffffff;
+}
+
+/* Sidebar active page — teal badge */
+nav.sidebar a[aria-current="page"],
+div.sidebar-content a[aria-current="page"] {
+  color: #ffffff !important;
+  background-color: var(--zik-accent) !important;
+  font-weight: 600;
+}
+
+/* Sidebar group labels (top-level sections) */
+nav.sidebar .group-label > .large,
+div.sidebar-content .group-label > .large {
+  color: #f8fafc; /* slate-50 */
+}
+
+/* Sidebar top-level large links */
+nav.sidebar a.large,
+div.sidebar-content a.large {
+  color: #f8fafc;
+}
+
+/* Sidebar summary/caret text */
+nav.sidebar summary,
+div.sidebar-content summary {
+  color: #e2e8f0;
+}
+
+/* Sidebar nested items (inside <details>) */
+nav.sidebar details ul a,
+div.sidebar-content details ul a {
+  color: #cbd5e1; /* slate-300, 5.2:1 on #1e293b */
+}
+nav.sidebar details ul a:hover,
+div.sidebar-content details ul a:hover {
+  color: #e2e8f0;
+}
+
+/* Right sidebar (TOC) — links on white bg, make them readable */
+.right-sidebar-container a,
+.right-sidebar-panel a,
+aside.right-sidebar a {
+  color: var(--zik-text) !important; /* #0f172a — strong contrast */
+}
+.right-sidebar-container a:hover,
+.right-sidebar-panel a:hover,
+aside.right-sidebar a:hover {
+  color: var(--zik-accent) !important;
+}
+.right-sidebar-container h2,
+.right-sidebar-panel h2,
+aside.right-sidebar h2 {
+  color: var(--zik-text) !important;
+}
+
+/* Header: search bar placeholder */
+site-search button[data-open-modal] {
+  color: #cbd5e1 !important;
+}
+site-search button[data-open-modal]:hover {
+  color: #ffffff !important;
+}
+
+/* Language select text */
+starlight-lang-select label {
+  color: #cbd5e1;
+}
+
+/* ══════════════════════════════════════════ */
+/*  DARK theme (full dark mode)             */
+/* ══════════════════════════════════════════ */
+
 :root[data-theme="dark"] {
   --sl-font: var(--zik-font);
   --sl-font-mono: var(--zik-font-mono);
