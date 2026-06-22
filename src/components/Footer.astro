@@ -3,19 +3,84 @@
 import type { Props } from '@astrojs/starlight/props';
 ---
 
-<footer style="border-top: 1px solid var(--sl-color-hairline); padding: 1.5rem 0; margin-top: 3rem; font-size: 0.85rem; color: var(--sl-color-gray-3);">
-  <div style="max-width: var(--sl-content-width); margin: 0 auto; padding: 0 1rem;">
-    <p>
-      <strong>Zik — Zibersegurtasuna Ikastetxeetan</strong><br />
-      Tknika — Digitaldeak | 
-      <a href="https://tknika.github.io/zibersegurtasuna-ikastetxeetan/">Jatorrizko gida</a> |
+<footer>
+  <div class="footer-inner">
+    <div class="footer-brand">
+      <strong>Zik — Zibersegurtasuna Ikastetxeetan</strong>
+      <p>Tknika — Digitaldeak</p>
+    </div>
+    <div class="footer-links">
+      <a href="https://tknika.github.io/zibersegurtasuna-ikastetxeetan/">Jatorrizko gida</a>
       <a href="https://github.com/tknika/zik">GitHub</a>
-    </p>
-    <p style="margin-top: 0.75rem;">
-      Edukia: <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.eu">CC BY-SA 4.0</a> |
-      Kodea: <a href="https://opensource.org/licenses/MIT">MIT</a><br />
-      Lege-oharra: Gida honen edukia informazio- eta sentsibilizazio-helburuetarako da eta ez da aholkularitza legala.<br />
-      Iturri ofizialak: <a href="https://www.boe.es/">BOE</a> · <a href="https://eur-lex.europa.eu/">EUR-Lex</a> · <a href="https://www.iso.org/standard/27001">ISO/IEC 27001</a>
-    </p>
+      <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.eu">CC BY-SA 4.0</a>
+    </div>
+  </div>
+  <div class="footer-legal">
+    Lege-oharra: Gida honen edukia informazio- eta sentsibilizazio-helburuetarako da eta ez da aholkularitza legala.
+    Iturri ofizialak: <a href="https://www.boe.es/">BOE</a> ·
+    <a href="https://eur-lex.europa.eu/">EUR-Lex</a> ·
+    <a href="https://www.iso.org/standard/27001">ISO/IEC 27001</a>
   </div>
 </footer>
+
+<style>
+  footer {
+    border-top: 1px solid var(--zik-border-light);
+    margin-top: 4rem;
+    padding: 2rem 1rem;
+    font-size: 0.8125rem;
+    color: var(--zik-text-muted);
+    line-height: 1.6;
+  }
+
+  .footer-inner {
+    max-width: 48rem;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-brand strong {
+    color: var(--zik-text);
+    font-size: 0.9375rem;
+  }
+
+  .footer-brand p {
+    margin: 0.25rem 0 0;
+  }
+
+  .footer-links {
+    display: flex;
+    gap: 1.5rem;
+    flex-wrap: wrap;
+  }
+
+  .footer-links a {
+    color: var(--zik-text-secondary);
+    text-decoration: none;
+  }
+
+  .footer-links a:hover {
+    color: var(--zik-accent);
+    text-decoration: underline;
+  }
+
+  .footer-legal {
+    max-width: 48rem;
+    margin: 1.5rem auto 0;
+    font-size: 0.75rem;
+    color: var(--zik-text-muted);
+  }
+
+  .footer-legal a {
+    color: var(--zik-text-muted);
+    text-decoration: underline;
+  }
+
+  .footer-legal a:hover {
+    color: var(--zik-accent);
+  }
+</style>

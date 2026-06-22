@@ -1,0 +1,304 @@
+/* Zik — Custom Starlight theme */
+/* Implements DESIGN.md tokens */
+
+/* ── Color palette ── */
+:root {
+  /* Core */
+  --zik-primary: #1a2942;
+  --zik-primary-light: #243b5e;
+  --zik-primary-dark: #0f1a2b;
+  --zik-accent: #c8483f;
+  --zik-accent-hover: #a53830;
+  --zik-accent-pale: #fef0ef;
+  --zik-surface-alt: #f5f6f8;
+  --zik-text: #1a1c1e;
+  --zik-text-secondary: #4a4e54;
+  --zik-text-muted: #6c7278;
+  --zik-text-on-dark: #e8eaed;
+  --zik-text-on-dark-muted: #9aa0a8;
+  --zik-border: #dde0e5;
+  --zik-border-light: #edf0f4;
+  --zik-success: #2d7d46;
+  --zik-warning: #b87a1f;
+  --zik-danger: #c8483f;
+
+  /* Radii */
+  --zik-radius-sm: 4px;
+  --zik-radius-md: 8px;
+  --zik-radius-lg: 12px;
+}
+
+/* ── Override Starlight base tokens (light default) ── */
+:root,
+:root[data-theme="light"] {
+  --sl-font: 'Inter', system-ui, -apple-system, sans-serif;
+  --sl-font-mono: 'JetBrains Mono', monospace;
+
+  --sl-color-accent-high: var(--zik-accent);
+  --sl-color-accent: var(--zik-accent);
+  --sl-color-accent-low: var(--zik-accent-pale);
+
+  --sl-color-white: #ffffff;
+  --sl-color-black: var(--zik-primary);
+  --sl-color-gray-1: var(--zik-text);
+  --sl-color-gray-2: var(--zik-text-secondary);
+  --sl-color-gray-3: var(--zik-text-muted);
+  --sl-color-gray-4: var(--zik-border);
+  --sl-color-gray-5: var(--zik-border-light);
+  --sl-color-gray-6: var(--zik-surface-alt);
+  --sl-color-gray-7: #ffffff;
+
+  --sl-color-text: var(--zik-text);
+  --sl-color-text-accent: var(--zik-accent);
+  --sl-color-text-invert: #ffffff;
+
+  --sl-color-bg: #ffffff;
+  --sl-color-bg-nav: var(--zik-primary);
+  --sl-color-bg-sidebar: var(--zik-primary);
+  --sl-color-bg-inline-code: var(--zik-surface-alt);
+
+  --sl-color-hairline: var(--zik-border);
+  --sl-color-hairline-light: var(--zik-border-light);
+  --sl-color-hairline-shade: var(--zik-border);
+
+  --sl-nav-height: 3.5rem;
+}
+
+@media (min-width: 50rem) {
+  :root {
+    --sl-sidebar-width: 16rem;
+  }
+}
+
+/* ── Typography refinements ── */
+.sl-markdown-content {
+  font-family: var(--sl-font);
+  font-size: 1rem;
+  line-height: 1.7;
+  color: var(--zik-text);
+}
+
+.sl-markdown-content h1 {
+  font-size: 2.25rem;
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  color: var(--zik-primary);
+  margin-bottom: 0.5rem;
+  margin-top: 0;
+}
+
+.sl-markdown-content h2 {
+  font-size: 1.625rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
+  color: var(--zik-primary);
+  margin-top: 3rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid var(--zik-border-light);
+}
+
+.sl-markdown-content h3 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  line-height: 1.4;
+  color: var(--zik-text);
+  margin-top: 2rem;
+}
+
+/* Description under h1 (after title) */
+.sl-markdown-content h1 + p {
+  font-size: 1.125rem;
+  color: var(--zik-text-secondary);
+  line-height: 1.7;
+}
+
+/* ── Links ── */
+.sl-markdown-content a {
+  color: var(--zik-accent);
+  text-decoration: underline;
+  text-decoration-color: var(--zik-accent);
+  text-underline-offset: 2px;
+  text-decoration-thickness: 1px;
+}
+
+.sl-markdown-content a:hover {
+  color: var(--zik-accent-hover);
+  text-decoration-color: var(--zik-accent-hover);
+}
+
+/* ── Hero / CTA button on homepage ── */
+.zik-start-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  background-color: var(--zik-accent);
+  color: #ffffff !important;
+  text-decoration: none !important;
+  font-weight: 600;
+  font-size: 1rem;
+  padding: 0.75rem 2rem;
+  border-radius: var(--zik-radius-md);
+  transition: background-color 0.15s ease;
+}
+
+.zik-start-button:hover {
+  background-color: var(--zik-accent-hover);
+  color: #ffffff !important;
+}
+
+/* ── Checklists ── */
+.sl-markdown-content ul:has(li > input[type="checkbox"]) {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.sl-markdown-content li:has(> input[type="checkbox"]) {
+  background-color: var(--zik-surface-alt);
+  border: 1px solid var(--zik-border-light);
+  border-radius: var(--zik-radius-md);
+  padding: 0.625rem 1rem;
+  margin: 0;
+  display: flex;
+  align-items: flex-start;
+  gap: 0.625rem;
+}
+
+.sl-markdown-content li:has(> input[type="checkbox"]) input[type="checkbox"] {
+  margin-top: 0.25rem;
+  accent-color: var(--zik-success);
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+}
+
+/* ── Tables ── */
+.sl-markdown-content table {
+  border-collapse: separate;
+  border-spacing: 0;
+  border-radius: var(--zik-radius-md);
+  overflow: hidden;
+  border: 1px solid var(--zik-border);
+  width: 100%;
+}
+
+.sl-markdown-content thead th {
+  background-color: var(--zik-primary);
+  color: var(--zik-text-on-dark);
+  font-weight: 600;
+  font-size: 0.8125rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  padding: 0.625rem 1rem;
+  text-align: left;
+  border: none;
+}
+
+.sl-markdown-content tbody td {
+  padding: 0.625rem 1rem;
+  border-bottom: 1px solid var(--zik-border-light);
+}
+
+.sl-markdown-content tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.sl-markdown-content tbody tr:nth-child(even) td {
+  background-color: var(--zik-surface-alt);
+}
+
+/* ── Code blocks ── */
+.sl-markdown-content code {
+  font-family: var(--sl-font-mono);
+  font-size: 0.85em;
+  background-color: var(--zik-surface-alt);
+  color: var(--zik-primary);
+  padding: 0.15em 0.4em;
+  border-radius: var(--zik-radius-sm);
+  border: 1px solid var(--zik-border-light);
+}
+
+.sl-markdown-content pre {
+  background-color: var(--zik-primary-dark);
+  border-radius: var(--zik-radius-md);
+  border: 1px solid var(--zik-primary);
+}
+
+.sl-markdown-content pre code {
+  background: none;
+  border: none;
+  color: var(--zik-text-on-dark);
+  font-size: 0.8125rem;
+}
+
+/* ── Keyboard / key ── */
+.sl-markdown-content kbd {
+  font-family: var(--sl-font-mono);
+  font-size: 0.8em;
+  background: var(--zik-surface-alt);
+  border: 1px solid var(--zik-border);
+  border-radius: var(--zik-radius-sm);
+  padding: 0.1em 0.4em;
+  box-shadow: 0 1px 0 var(--zik-border);
+}
+
+/* ── Footer ── */
+footer {
+  border-top: 1px solid var(--zik-border-light) !important;
+  margin-top: 4rem;
+  padding: 2rem 0;
+  font-size: 0.8125rem;
+  color: var(--zik-text-muted);
+}
+
+footer a {
+  color: var(--zik-text-secondary);
+  text-decoration: underline;
+}
+
+footer a:hover {
+  color: var(--zik-accent);
+}
+
+/* ── Callouts / Asides (Starlight admonitions) ── */
+aside {
+  border-radius: var(--zik-radius-md) !important;
+  border: 1px solid var(--zik-border-light) !important;
+  font-size: 0.9375rem;
+}
+
+aside.starlight-aside--note,
+aside.starlight-aside--tip {
+  background-color: #f0f5fb;
+  border-left: 4px solid var(--zik-info) !important;
+}
+
+aside.starlight-aside--caution,
+aside.starlight-aside--warning {
+  background-color: #fef9ef;
+  border-left: 4px solid var(--zik-warning) !important;
+}
+
+aside.starlight-aside--danger {
+  background-color: var(--zik-accent-pale);
+  border-left: 4px solid var(--zik-danger) !important;
+}
+
+aside.starlight-aside__title {
+  font-weight: 600;
+  font-size: 0.875rem;
+}
+
+/* ── Responsive: mobile sidebar ── */
+@media (max-width: 50rem) {
+  .sl-markdown-content h1 {
+    font-size: 1.75rem;
+  }
+  .sl-markdown-content h2 {
+    font-size: 1.375rem;
+  }
+}
