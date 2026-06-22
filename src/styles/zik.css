@@ -438,6 +438,7 @@ aside.right-sidebar h2 {
 /* ══════════════════════════════════════════ */
 
 .sl-markdown-content table {
+  display: table;
   border-collapse: separate;
   border-spacing: 0;
   border-radius: var(--zik-radius-lg);
@@ -451,6 +452,15 @@ aside.right-sidebar h2 {
 
 :root[data-theme="dark"] .sl-markdown-content table {
   border-color: var(--sl-color-gray-5);
+}
+
+/* Override Starlight's first/last-child zero-padding — header needs full coverage */
+.sl-markdown-content :is(th:first-child, td:first-child) {
+  padding-inline-start: 1rem;
+}
+
+.sl-markdown-content :is(th:last-child, td:last-child) {
+  padding-inline-end: 1rem;
 }
 
 .sl-markdown-content thead th {
