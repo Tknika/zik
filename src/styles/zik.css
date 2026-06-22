@@ -14,6 +14,7 @@
   --zik-paper-active: #ece8de;
   --zik-white: #ffffff;
   --zik-ink: #0e0e0e;
+  --zik-ink-heavy: #0e0e0e;
   --zik-ink-secondary: #3d3d3d;
   --zik-ink-muted: #707070;
   --zik-ink-on-dark: #f5f5f5;
@@ -742,6 +743,101 @@ aside.right-sidebar h2 {
   font-size: 0.8em;
   border-radius: var(--zik-radius-sm);
   padding: 0.1em 0.4em;
+}
+
+/* ══════════════════════════════════════════ */
+/*  COMPLIANCE COVERAGE CARDS                */
+/* ══════════════════════════════════════════ */
+
+.zik-coverage-card {
+  background: var(--zik-surface);
+  border: 1px solid var(--zik-border-light);
+  border-radius: var(--zik-radius-lg);
+  padding: 1.25rem;
+  text-align: center;
+}
+
+.zik-coverage-card-number {
+  font-family: var(--zik-font-display);
+  font-size: 2.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.zik-coverage-card-label {
+  color: var(--zik-ink-muted);
+  font-size: 0.8125rem;
+  margin-top: 0.25rem;
+}
+
+.zik-coverage-card-bar {
+  margin-top: 0.75rem;
+  width: 100%;
+  height: 6px;
+  background: var(--zik-border-light);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.zik-coverage-card-fill {
+  height: 100%;
+  background: var(--zik-ink) !important;
+  border-radius: 3px;
+}
+
+.zik-coverage-card-pct {
+  font-size: 0.75rem;
+  color: var(--zik-ink-muted);
+  margin-top: 0.25rem;
+}
+
+/* ══════════════════════════════════════════ */
+/*  COVERAGE DETAILS — tiered references      */
+/* ══════════════════════════════════════════ */
+
+/* Covered items: full opacity, normal weight */
+.zik-cov-covered {
+  color: var(--zik-ink) !important;
+}
+
+.zik-cov-covered td,
+.zik-cov-covered th,
+.zik-cov-covered summary {
+  color: var(--zik-ink) !important;
+}
+
+/* Referenced items: muted, lighter */
+.zik-cov-referenced {
+  color: var(--zik-ink-muted) !important;
+}
+
+.zik-cov-referenced td,
+.zik-cov-referenced tr,
+.zik-cov-referenced summary {
+  color: var(--zik-ink-muted) !important;
+}
+
+.zik-cov-referenced th {
+  color: var(--zik-ink-muted) !important;
+}
+
+.zik-cov-tag {
+  display: inline-block;
+  padding: 0.05rem 0.375rem;
+  border-radius: 3px;
+  font-size: 0.6875rem;
+  margin-left: 0.375rem;
+  vertical-align: middle;
+}
+
+.zik-cov-tag--covered {
+  background: var(--zik-ink);
+  color: #fff;
+}
+
+.zik-cov-tag--referenced {
+  background: var(--zik-border);
+  color: var(--zik-ink-muted);
 }
 
 /* ══════════════════════════════════════════ */

@@ -1,6 +1,18 @@
 ---
 title: 4. Detektatu
 description: Monitorizazioa, alertak eta detekzio-geruzak. Jakin zerbait gertatzen ari denean.
+iso27001:
+  - id: '9.1'
+    description: Monitorizazioa, neurketa, analisia eta ebaluazioa
+  - id: 'A.8.7'
+    description: Malware-aren aurkako babesa
+  - id: 'A.8.15'
+    description: Jardueren erregistroa (logging)
+  - id: 'A.8.16'
+    description: Jardueren monitorizazioa
+compliance:
+  clauses_pct: 8
+  annexA_pct: 10
 ---
 
 Zure sistemetan **zerbait arraroa gertatzen ari den jakitea** da.
@@ -17,8 +29,6 @@ antibirusa da, baina helburua monitorizazio osoko sistema bat da.
 
 - **Dwell time**: eraso bat detektatzeko batez beste 21 egun pasatzen dira.
   Ransomware kasuetan, egun gutxi batzuetan zifratzen da dena.
-- **ISO 27001 A.8.7, A.8.16, A.8.15**: malware babesa, monitorizazioa
-  eta erregistroak (logak) eskatzen ditu.
 - **ENS 24., 25. art.**: detekzio- eta erantzun-gaitasuna eskatzen du.
 - Firewall batek milaka konexio-saiakera blokeatu ditzake egunero;
   ez badituzu begiratzen, ez dakizu erasoren bat arrakasta izaten ari den.

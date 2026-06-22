@@ -1,6 +1,22 @@
 ---
 title: 3. Babestu
 description: Pasahitzak, eguneratzeak, babeskopiak — oinarrizko hiru neurriak sistemen babeserako
+iso27001:
+  - id: 'A.5.15'
+    description: Atzipen-kontrola
+  - id: 'A.5.16'
+    description: Identitate-kudeaketa
+  - id: 'A.5.17'
+    description: Autentikazio-informazioa
+  - id: 'A.8.8'
+    description: Ahultasun teknikoen kudeaketa
+  - id: 'A.8.13'
+    description: Informazioaren babeskopiak
+  - id: 'A.8.24'
+    description: Kriptografia erabilera
+compliance:
+  clauses_pct: 15
+  annexA_pct: 44
 ---
 
 Segurtasun-politika idatzi duzu (Gobernantza). Orain **teknikoki babestu**
@@ -14,8 +30,6 @@ segmentazioa.
 - Segurtasun-intzidentzia gehienak **oinarrizko neurriak falta direlako**
   gertatzen dira: lehenetsitako pasahitzak, eguneratu gabeko softwarea,
   babeskopiarik eza.
-- ISO 27001 A.8.8 (ahultasunen kudeaketa), A.8.13 (babeskopiak),
-  A.5.15 (atzipen-kontrola).
 
 ---
 

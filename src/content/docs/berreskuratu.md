@@ -1,6 +1,14 @@
 ---
 title: 6. Berreskuratu
 description: Berreskurapen-prozedura idatzi eta probatu — zerbitzuak eta datuak nola berreskuratu intzidentzia baten ondoren
+iso27001:
+  - id: 'A.5.29'
+    description: Segurtasuna etenaldian (TIC jarraitutasuna)
+  - id: 'A.8.14'
+    description: Informazioaren berreskurapena
+compliance:
+  clauses_pct: 8
+  annexA_pct: 8
 ---
 
 Intzidentzia baten ondoren **normaltasunera itzultzea** da. Babeskopietatik
@@ -20,9 +28,6 @@ Pentsatu:
 - Matrikulazio-sistema eroriko balitz, zenbat denbora egon daiteke etenik?
 - Notak galtzea onargarria al da?
 - Zer gertatuko litzateke Internet gabe astebetez?
-
-ISO 27001 A.8.14 (informazioaren berreskurapena), A.5.29 (segurtasuna
-etenaldian).
 
 ---
 

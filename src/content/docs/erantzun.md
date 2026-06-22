@@ -1,6 +1,24 @@
 ---
 title: 5. Erantzun
 description: Intzidentzia baten aurrean zer egin — erabiltzaileentzako gida eta arduradunaren erantzun-txartela
+iso27001:
+  - id: '10.1'
+    description: Etengabeko hobekuntza
+  - id: '10.2'
+    description: Ez-adostasunak eta zuzenketa-ekintzak
+  - id: 'A.5.24'
+    description: Intzidentzien kudeaketaren plangintza
+  - id: 'A.5.25'
+    description: Gertaeren ebaluazioa
+  - id: 'A.5.26'
+    description: Intzidentziei erantzuna
+  - id: 'A.5.27'
+    description: Intzidentzietatik ikastea
+  - id: 'A.5.28'
+    description: Ebidentzia-bilketa
+compliance:
+  clauses_pct: 23
+  annexA_pct: 12
 ---
 
 Intzidentzia bat gertatzen denean —ransomware, phishing arrakastatsua,
@@ -20,7 +38,6 @@ kaltearen tamaina zehazten dute.
 - **RGPD**: datu-urraketa bat gertatuz gero, 72 orduko epean jakinarazi
   behar diozu AEPDri.
 - **ENS**: intzidentzien jakinarazpena eskatzen du.
-- ISO 27001 A.5.24–A.5.28: intzidentzien kudeaketa osoa.
 
 ---
 
@@ -62,6 +79,14 @@ komunikazioa, post-mortem analisia.
 
 [Deskargatu gertaeren erantzun-plana (DOCX/PDF)](/zik/templates/#gertaeren-erantzun-plana)
 
+### 5. Ikasi intzidentzia bakoitzetik (ISO 27001 10. klausula)
+
+Intzidentzia baten ondoren, jaso idatziz: zer gertatu den, zergatik, eta zer
+aldatu berriro ez gertatzeko. Ekintza horiek hurrengo urterako helburu bihurtu
+eta eraman zuzendaritzaren berrikuspen-bilerara (ikus Gobernantza → 6. ataza).
+
+[Deskargatu post-mortem txantiloia (DOCX/PDF)](/zik/templates/#post-mortem-analisia)
+
 ---
 
 ## Egindakoa markatu
@@ -70,6 +95,8 @@ komunikazioa, post-mortem analisia.
 - [ ] Intzidentzien erantzun-txartela bete eta eskura daukat
 - [ ] Urteroko gogorarazpena programatuta dago (adibidez, klaustroa)
 - [ ] Kontaktuen zerrenda eskuragarri dago (papera + digitala)
+- [ ] Post-mortem analisirako txantiloia prestatu dut
+- [ ] Lehen intzidentziatik zuzenketa-ekintza bat identifikatu eta dokumentatu dut
 
 ---
 
@@ -77,7 +104,7 @@ komunikazioa, post-mortem analisia.
 
 | Estandarra | Atala | Deskribapena |
 |-----------|-------|-------------|
-| NIST CSF 2.0 | RS.MA, RS.CO | Incident management, communication |
-| ISO 27001:2022 | A.5.24–A.5.28 | Intzidentzien kudeaketa osoa |
+| NIST CSF 2.0 | RS.MA, RS.CO, RS.AN | Incident management, communication, analysis |
+| ISO 27001:2022 | A.5.24–A.5.28, 10.1, 10.2 | Intzidentzien kudeaketa, etengabeko hobekuntza, ez-adostasunak eta zuzenketa-ekintzak |
 | ENS | 25. art. | Intzidentzien jakinarazpena |
 | RGPD | 33., 34. art. | Datu-urraketen jakinarazpena AEPDri eta interesei |

@@ -1,6 +1,22 @@
 ---
 title: 1. Gobernantza
 description: Zibersegurtasunaren oinarria — arduraduna izendatu, politika idatzi, antolatu
+iso27001:
+  - id: '5.1'
+    description: Lidergoa eta konpromisoa
+  - id: '5.2'
+    description: Segurtasun-politika
+  - id: '5.3'
+    description: Rolak, erantzukizunak eta agintaritzak
+  - id: '9.1'
+    description: Monitorizazioa, neurketa, analisia eta ebaluazioa
+  - id: '9.2'
+    description: Barne-auditoretza
+  - id: '9.3'
+    description: Zuzendaritzaren berrikuspena
+compliance:
+  clauses_pct: 73
+  annexA_pct: 27
 ---
 
 Gobernantza da zibersegurtasunaren **oinarria**. Hemen erabakitzen da
@@ -15,7 +31,6 @@ Helburua ez da perfekzioa. **Egitea da.** Gero hobetuko duzu.
 - **Legeak eskatzen du** (ENS: 12., 13. art.; RGPD; NIS2: 20. art.).
 - Datu-urraketa bat gertatuz gero, **frogatu beharko duzu** neurriak
   hartu zenituela. Hutsunerik handiena izendapen formalik eza da.
-- ISO 27001 (5.1, 5.2, 5.3): lidergoa, politika eta rolak eskatzen ditu.
 
 ---
 
@@ -73,6 +88,13 @@ hainbat pertsonak parte hartzen dutenean.
 
 [Deskargatu RACI matrizea (DOCX/PDF)](/zik/templates/#raci-matrizea)
 
+### 6. Berrikusi urtero (ISO 27001 9. klausula)
+
+Urtean behin, zuzendaritzak 20 minutuko bilera bat egingo du:
+zer aurreratu den, zer intzidentzia gertatu den, eta hurrengo urterako
+helburuak finkatzeko. Idatzi emaitza eta gorde — kanpo-auditoreak
+hori eskatuko du ISO 27001 ziurtapenerako.
+
 ---
 
 ## Egindakoa markatu
@@ -83,6 +105,7 @@ hainbat pertsonak parte hartzen dutenean.
 - [ ] Zuzendaritzak politika sinatu du
 - [ ] Kontaktuen zerrenda sortu eta eskuragarri jarri dut
 - [ ] Langileei jakinarazi diet nor den arduraduna eta non dagoen politika
+- [ ] Zuzendaritzaren urteroko berrikuspena programatuta dago
 
 ---
 
@@ -90,8 +113,8 @@ hainbat pertsonak parte hartzen dutenean.
 
 | Estandarra | Atala | Deskribapena |
 |-----------|-------|-------------|
-| NIST CSF 2.0 | GV.OC, GV.RR, GV.PO | Organizational context, roles, policy |
-| ISO 27001:2022 | 5.1, 5.2, 5.3 | Leadership, policy, organizational roles |
+| NIST CSF 2.0 | GV.OC, GV.RR, GV.PO, GV.OV | Organizational context, roles, policy, oversight |
+| ISO 27001:2022 | 5.1, 5.2, 5.3, 9.1, 9.2, 9.3 | Lidergoa, politika, rolak, monitorizazioa, barne-auditoretza, berrikuspena |
 | ENS | 12., 13. art. | Segurtasun-politika, arduraduna |
 | NIS2 | 20. art. | Zuzendaritzaren erantzukizuna |
 | RGPD | 37. art. | DPD izendapena (datu pertsonaletarako) |

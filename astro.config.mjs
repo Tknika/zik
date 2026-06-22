@@ -37,6 +37,10 @@ export default defineConfig({
           ],
         },
         {
+          label: 'Estaldura',
+          link: '/estaldura/',
+        },
+        {
           label: 'Araudia',
           link: '/legal/araudia/',
         },
