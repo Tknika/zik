@@ -1,41 +1,38 @@
 ---
 // src/components/Footer.astro — Custom Starlight footer
-import type { Props } from '@astrojs/starlight/props';
 ---
 
-<footer>
-  <div class="footer-inner">
-    <div class="footer-brand">
+<div class="ft-wrapper">
+  <div class="ft-row">
+    <div class="ft-brand">
       <strong>Zik — Zibersegurtasuna Ikastetxeetan</strong>
       <p>Tknika — Digitaldeak</p>
     </div>
-    <div class="footer-links">
+    <div class="ft-links">
       <a href="https://tknika.github.io/zibersegurtasuna-ikastetxeetan/">Jatorrizko gida</a>
       <a href="https://github.com/tknika/zik">GitHub</a>
       <a href="https://creativecommons.org/licenses/by-sa/4.0/deed.eu">CC BY-SA 4.0</a>
     </div>
   </div>
-  <div class="footer-legal">
+  <p class="ft-legal">
     Lege-oharra: Gida honen edukia informazio- eta sentsibilizazio-helburuetarako da eta ez da aholkularitza legala.
     Iturri ofizialak: <a href="https://www.boe.es/">BOE</a> ·
     <a href="https://eur-lex.europa.eu/">EUR-Lex</a> ·
     <a href="https://www.iso.org/standard/27001">ISO/IEC 27001</a>
-  </div>
-</footer>
+  </p>
+</div>
 
 <style>
-  footer {
-    border-top: 1px solid var(--zik-border-light);
-    margin-top: 4rem;
+  .ft-wrapper {
+    max-width: var(--sl-content-width);
+    margin: 0 auto;
     padding: 2rem 1rem;
     font-size: 0.8125rem;
     color: var(--zik-text-muted);
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
-  .footer-inner {
-    max-width: 48rem;
-    margin: 0 auto;
+  .ft-row {
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
@@ -43,44 +40,51 @@ import type { Props } from '@astrojs/starlight/props';
     flex-wrap: wrap;
   }
 
-  .footer-brand strong {
+  .ft-brand strong {
     color: var(--zik-text);
     font-size: 0.9375rem;
   }
 
-  .footer-brand p {
+  .ft-brand p {
     margin: 0.25rem 0 0;
   }
 
-  .footer-links {
+  .ft-links {
     display: flex;
     gap: 1.5rem;
     flex-wrap: wrap;
   }
 
-  .footer-links a {
+  .ft-links a {
     color: var(--zik-text-secondary);
     text-decoration: none;
   }
 
-  .footer-links a:hover {
+  .ft-links a:hover {
     color: var(--zik-accent);
     text-decoration: underline;
   }
 
-  .footer-legal {
-    max-width: 48rem;
-    margin: 1.5rem auto 0;
+  .ft-legal {
+    margin-top: 1.5rem;
     font-size: 0.75rem;
     color: var(--zik-text-muted);
   }
 
-  .footer-legal a {
+  .ft-legal a {
     color: var(--zik-text-muted);
     text-decoration: underline;
   }
 
-  .footer-legal a:hover {
+  .ft-legal a:hover {
     color: var(--zik-accent);
+  }
+
+  :root[data-theme="dark"] .ft-brand strong {
+    color: var(--zik-text-on-dark);
+  }
+
+  :root[data-theme="dark"] .ft-links a {
+    color: var(--zik-text-on-dark-muted);
   }
 </style>
