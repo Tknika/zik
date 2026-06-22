@@ -27,6 +27,7 @@ euskaraz azalduta eta gaztelaniazko baliokidearekin.
 | **Gobernantza** | Gobernanza | Zibersegurtasunaren kudeaketarako erabakiak, rolak eta politikak definitzen dituen prozesu eta egituren multzoa. |
 | **Intzidentzia** | Incidente | Segurtasuna arriskuan jartzen duen gertaera: datu-filtrazioa, ransomware erasoa, sarbide ez-baimendua… |
 | **ISO/IEC 27001** | ISO/IEC 27001 | Informazioaren segurtasuna kudeatzeko nazioarteko estandarra (ISMS). |
+| **ISMS (Informazioaren Segurtasuna Kudeatzeko Sistema)** | SGSI (Sistema de Gestión de Seguridad de la Información) | ISO/IEC 27001 estandarraren muina: erakunde batek bere informazioaren segurtasuna kudeatzeko ezartzen duen politika, prozedura, kontrol eta arriskuen kudeaketaren multzo sistematikoa. |
 | **LOPDGDD** | LOPDGDD | Espainiako Datu Pertsonalen Babeserako eta Eskubide Digitalen Bermerako Lege Organikoa (3/2018 LO). |
 | **Margerit** | Margerit | CCN-CERTek garatutako arriskuen analisirako metodologia, ENS betetzeko erabilia. |
 | **Mehatxua** | Amenaza | Sistema edo datuentzako kalte potentziala eragin dezakeen gertaera, nahita edo nahigabe. |
