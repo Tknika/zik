@@ -3,8 +3,6 @@ title: Glosarioa
 description: Zibersegurtasuneko eta lege-testuetako terminoak euskaraz
 ---
 
-# Glosarioa
-
 Zibersegurtasunarekin eta lege-araudiarekin lotutako termino garrantzitsuenak,
 euskaraz azalduta eta gaztelaniazko baliokidearekin.
 

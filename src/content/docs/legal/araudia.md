@@ -3,8 +3,6 @@ title: Araudia — Lege-betekizunak
 description: NIS2, RGPD, LOPDGDD eta ENS araudien laburpen praktikoa ikastetxeentzat
 ---
 
-# Araudia — Ikastetxeei eragiten dieten lege eta araudiak
-
 Gida honetan lau araudi nagusiren laburpen praktikoak aurkituko dituzu, zure ikastetxeari
 zuzenean eragiten diotenak. Ez da dokumentu juridiko bat — **informazio- eta
 sentsibilizazio-helburuetarako** da, eta ez da aholkularitza legala.

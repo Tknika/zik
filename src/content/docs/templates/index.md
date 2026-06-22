@@ -3,8 +3,6 @@ title: Txantiloiak
 description: Deskargatu zibersegurtasun-txantiloiak DOCX eta PDF formatuetan
 ---
 
-# Txantiloiak
-
 Hemen deskarga ditzakezu Zik-en txantiloiak bi formatutan: **DOCX** (editatzeko)
 eta **PDF** (inprimatzeko).
 
