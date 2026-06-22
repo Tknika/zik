@@ -849,6 +849,15 @@ aside.right-sidebar h2 {
   border: 1px solid var(--zik-border) !important;
   font-size: 0.9375rem;
   background-color: var(--zik-surface) !important;
+  color: var(--zik-ink) !important;
+}
+
+.starlight-aside__title {
+  color: var(--zik-ink) !important;
+}
+
+.starlight-aside a {
+  color: var(--zik-ink) !important;
 }
 
 .starlight-aside--note,
