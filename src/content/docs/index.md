@@ -30,8 +30,8 @@ Zik bi nazioarteko estandarretan oinarritzen da, bakoitza helburu batekin:
 - Biek partekatzen dute **arriskuan oinarritutako ikuspegia** eta
   **etengabeko hobekuntza**. Elkarren osagarri dira, ez lehiakide.
 
-→ Ikusi **[CSF 2.0 ↔ ISO 27001:2022 gurutzatze-taula](../sources/csf2-iso27001-crosswalk.md)**
-zehaztasun guztietarako.
+→ Ikusi **[ISO 27001 estaldura](/zik/estaldura/)** gidan
+integratutako klausula eta Annex A kontrolen estaldura-maila ikusteko.
 
 Ez da entziklopedia bat. Ez da lege-testu bat. **Eginbehar zerrenda bat da.**
 
