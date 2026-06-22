@@ -47,7 +47,7 @@ Sei atal, lehenengotik hasita. Ez duzu ezer jakin behar aldez aurretik.
 
 ## Sei atalak (NIST CSF 2.0)
 
-![NIST CSF 2.0 gurpila — sei funtzio: Gobernatu, Identifikatu, Babestu, Detektatu, Erantzun, Berreskuratu](/csf-wheel.png)
+![NIST CSF 2.0 gurpila — sei funtzio: Gobernatu, Identifikatu, Babestu, Detektatu, Erantzun, Berreskuratu](/zik/csf-wheel.png)
 
 *NIST CSF 2.0-k zibersegurtasuna sei funtziotan antolatzen du, etengabeko
 ziklo baten moduan. Gobernantza erdian dago, beste bostak inguruan.*
