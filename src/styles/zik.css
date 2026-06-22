@@ -296,9 +296,17 @@ starlight-lang-select select {
   color: var(--zik-ink-secondary) !important;
 }
 
+starlight-lang-select label:hover {
+  color: var(--zik-ink) !important;
+}
+
 :root[data-theme="dark"] starlight-lang-select label,
 :root[data-theme="dark"] starlight-lang-select select {
   color: var(--zik-ink-muted) !important;
+}
+
+:root[data-theme="dark"] starlight-lang-select label:hover {
+  color: var(--zik-ink-on-dark) !important;
 }
 
 /* Theme toggle icons */
@@ -310,11 +318,35 @@ starlight-theme-select button:hover {
   color: var(--zik-ink) !important;
 }
 
-:root[data-theme="dark"] starlight-theme-select button {
-  color: var(--zik-ink-muted) !important;
+/* Theme/language select dropdowns — prevent hover color from disappearing */
+starlight-theme-select label:hover,
+starlight-lang-select label:hover {
+  color: var(--zik-ink) !important;
 }
 
-:root[data-theme="dark"] starlight-theme-select button:hover {
+:root[data-theme="dark"] starlight-theme-select label:hover,
+:root[data-theme="dark"] starlight-lang-select label:hover {
+  color: var(--zik-ink-on-dark) !important;
+}
+
+/* Native select option styling */
+select option {
+  background: var(--sl-color-bg) !important;
+  color: var(--zik-ink) !important;
+}
+
+select option:checked {
+  background: var(--zik-paper-active) !important;
+  color: var(--zik-ink) !important;
+}
+
+:root[data-theme="dark"] select option {
+  background: var(--sl-color-bg) !important;
+  color: var(--zik-ink-on-dark) !important;
+}
+
+:root[data-theme="dark"] select option:checked {
+  background: var(--zik-paper-dark) !important;
   color: var(--zik-ink-on-dark) !important;
 }
 
