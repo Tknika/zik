@@ -1,17 +1,17 @@
 ---
-title: Zik — Zibersegurtasuna Ikastetxeetan
+title: Zik
 description: Zibersegurtasun-gida praktikoa Lanbide Heziketako ikastetxeentzat, NIST CSF 2.0n oinarritua
 ---
 
-# Zik — Zibersegurtasuna Ikastetxeetan
+<p class="zik-subtitle">Zibersegurtasuna Ikastetxeetan — gida praktikoa</p>
 
-**Sei atal. Praktikoa. Euskaraz.**
+**Lanbide Heziketan zibersegurtasuna txertatzeko bideorria.**
 
 Zik gida praktiko bat da, Lanbide Heziketako ikastetxeei
 zibersegurtasunaren oinarriak ezartzen laguntzeko, [NIST CSF 2.0](https://www.nist.gov/cyberframework)
 esparruan oinarrituta.
 
-Ez da entziklopedia bat. Ez da lege-testu bat. **Egiteko gida bat da.**
+Ez da entziklopedia bat. Ez da lege-testu bat. **Eginbehar zerrenda bat da.**
 
 ---
 

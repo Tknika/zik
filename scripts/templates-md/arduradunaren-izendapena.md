@@ -1,6 +1,6 @@
 # Arduradunaren izendapena — {{schoolName}}
 
-Data: {{appointmentDate}}
+Data: {{appointmentDate}}<br>
 Dokumentu-erreferentzia: ZIK-ARD-{{schoolCode}}
 
 ---

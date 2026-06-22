@@ -62,10 +62,19 @@
 
   /* Accent — warm orange, used sparingly */
   --sl-color-accent-high: var(--zik-accent);
-  --sl-color-accent: var(--zik-accent);
-  --sl-color-accent-low: var(--zik-accent-pale);
+  --sl-color-accent: var(--zik-ink);  /* accent used for active nav → ink/dark */
+  --sl-color-accent-low: var(--zik-paper-active);
   --sl-color-text-accent: var(--zik-ink);  /* links = black */
   --sl-color-text-invert: #ffffff;
+  --sl-color-bg-accent: var(--zik-paper-active);  /* active sidebar = light gray pill */
+
+  /* Override Starlight's blue semantic tokens with warm equivalents */
+  --sl-color-blue-high: var(--zik-ink);
+  --sl-color-blue: var(--zik-accent);
+  --sl-color-blue-low: var(--zik-accent-pale);
+
+  /* Also override print stylesheet tokens */
+  --sl-hue-blue: 14;  /* warm orange hue for any hsl(var(--sl-hue-blue), ...) usage */
 
   /* Gray scale — warm, paper-like */
   --sl-color-white: #ffffff;
@@ -91,6 +100,22 @@
   --sl-color-hairline-shade: var(--zik-border);
 
   --sl-nav-height: 3.5rem;
+
+  /* On mobile we hide the TOC entirely, so we don't need the space for it */
+  --sl-mobile-toc-height: 0rem;
+}
+
+/* ══════════════════════════════════════════ */
+/*  MAIN CONTENT — Remove top gap            */
+/* ══════════════════════════════════════════ */
+
+/* ContentPanel has padding: 1.5rem — reduce it significantly */
+.content-panel {
+  padding-top: 0.25rem !important;
+}
+
+.content-panel .sl-container > :global(* + *) {
+  margin-top: 1rem !important;
 }
 
 /* ══════════════════════════════════════════ */
@@ -104,9 +129,19 @@ div.sidebar-pane {
   background-color: var(--zik-paper) !important;
 }
 
+:root[data-theme="dark"] nav.sidebar,
+:root[data-theme="dark"] header.header,
+:root[data-theme="dark"] div.sidebar-pane {
+  background-color: var(--sl-color-gray-7) !important;
+}
+
 /* Header bottom border */
 .header {
   border-bottom: 1px solid var(--zik-border) !important;
+}
+
+:root[data-theme="dark"] .header {
+  border-bottom-color: var(--sl-color-gray-5) !important;
 }
 
 /* Sidebar links */
@@ -121,12 +156,29 @@ div.sidebar-content a[href]:hover {
   background-color: var(--zik-paper-hover);
 }
 
+:root[data-theme="dark"] nav.sidebar a[href],
+:root[data-theme="dark"] div.sidebar-content a[href] {
+  color: var(--zik-ink-muted);
+}
+
+:root[data-theme="dark"] nav.sidebar a[href]:hover,
+:root[data-theme="dark"] div.sidebar-content a[href]:hover {
+  color: var(--zik-ink-on-dark);
+  background-color: var(--sl-color-gray-5);
+}
+
 /* Active page — warm gray pill */
 nav.sidebar a[aria-current="page"],
 div.sidebar-content a[aria-current="page"] {
   color: var(--zik-ink) !important;
   background-color: var(--zik-paper-active) !important;
   font-weight: 600;
+}
+
+:root[data-theme="dark"] nav.sidebar a[aria-current="page"],
+:root[data-theme="dark"] div.sidebar-content a[aria-current="page"] {
+  color: var(--zik-ink-on-dark) !important;
+  background-color: var(--sl-color-gray-5) !important;
 }
 
 /* Group labels (section headers in sidebar) */
@@ -136,10 +188,20 @@ div.sidebar-content .group-label > .large {
   font-weight: 600;
 }
 
+:root[data-theme="dark"] nav.sidebar .group-label > .large,
+:root[data-theme="dark"] div.sidebar-content .group-label > .large {
+  color: var(--zik-ink-on-dark);
+}
+
 /* Top-level large links */
 nav.sidebar a.large,
 div.sidebar-content a.large {
   color: var(--zik-ink);
+}
+
+:root[data-theme="dark"] nav.sidebar a.large,
+:root[data-theme="dark"] div.sidebar-content a.large {
+  color: var(--zik-ink-on-dark);
 }
 
 /* Nested items (inside <details>) */
@@ -153,6 +215,16 @@ div.sidebar-content details ul a:hover {
   color: var(--zik-ink);
 }
 
+:root[data-theme="dark"] nav.sidebar details ul a,
+:root[data-theme="dark"] div.sidebar-content details ul a {
+  color: var(--zik-ink-muted);
+}
+
+:root[data-theme="dark"] nav.sidebar details ul a:hover,
+:root[data-theme="dark"] div.sidebar-content details ul a:hover {
+  color: var(--zik-ink-on-dark);
+}
+
 /* Summary labels */
 nav.sidebar summary,
 div.sidebar-content summary {
@@ -160,13 +232,22 @@ div.sidebar-content summary {
   font-weight: 600;
 }
 
+:root[data-theme="dark"] nav.sidebar summary,
+:root[data-theme="dark"] div.sidebar-content summary {
+  color: var(--zik-ink-on-dark);
+}
+
 /* ══════════════════════════════════════════ */
 /*  HEADER / TOP NAV                          */
 /* ══════════════════════════════════════════ */
 
-/* Site title — black, no color */
+/* Site title */
 .site-title {
   color: var(--zik-ink) !important;
+}
+
+:root[data-theme="dark"] .site-title {
+  color: var(--zik-ink-on-dark) !important;
 }
 
 /* Social icons / header links */
@@ -176,6 +257,14 @@ div.sidebar-content summary {
 
 .header .social-icons a:hover {
   color: var(--zik-ink) !important;
+}
+
+:root[data-theme="dark"] .header .social-icons a {
+  color: var(--zik-ink-muted) !important;
+}
+
+:root[data-theme="dark"] .header .social-icons a:hover {
+  color: var(--zik-ink-on-dark) !important;
 }
 
 /* Search button — neutral, with border */
@@ -190,10 +279,26 @@ site-search button[data-open-modal]:hover {
   border-color: var(--zik-ink-muted) !important;
 }
 
+:root[data-theme="dark"] site-search button[data-open-modal] {
+  color: var(--zik-ink-muted) !important;
+  background-color: var(--sl-color-gray-6) !important;
+  border-color: var(--sl-color-gray-5) !important;
+}
+
+:root[data-theme="dark"] site-search button[data-open-modal]:hover {
+  color: var(--zik-ink-on-dark) !important;
+  border-color: var(--sl-color-gray-4) !important;
+}
+
 /* Language select */
 starlight-lang-select label,
 starlight-lang-select select {
   color: var(--zik-ink-secondary) !important;
+}
+
+:root[data-theme="dark"] starlight-lang-select label,
+:root[data-theme="dark"] starlight-lang-select select {
+  color: var(--zik-ink-muted) !important;
 }
 
 /* Theme toggle icons */
@@ -203,6 +308,14 @@ starlight-theme-select button {
 
 starlight-theme-select button:hover {
   color: var(--zik-ink) !important;
+}
+
+:root[data-theme="dark"] starlight-theme-select button {
+  color: var(--zik-ink-muted) !important;
+}
+
+:root[data-theme="dark"] starlight-theme-select button:hover {
+  color: var(--zik-ink-on-dark) !important;
 }
 
 /* ══════════════════════════════════════════ */
@@ -221,6 +334,18 @@ aside.right-sidebar a:hover {
   color: var(--zik-ink) !important;
 }
 
+:root[data-theme="dark"] .right-sidebar-container a,
+:root[data-theme="dark"] .right-sidebar-panel a,
+:root[data-theme="dark"] aside.right-sidebar a {
+  color: var(--zik-ink-muted) !important;
+}
+
+:root[data-theme="dark"] .right-sidebar-container a:hover,
+:root[data-theme="dark"] .right-sidebar-panel a:hover,
+:root[data-theme="dark"] aside.right-sidebar a:hover {
+  color: var(--zik-ink-on-dark) !important;
+}
+
 .right-sidebar-container h2,
 .right-sidebar-panel h2,
 aside.right-sidebar h2 {
@@ -228,6 +353,22 @@ aside.right-sidebar h2 {
   font-weight: 600;
   font-size: 0.8125rem;
   text-transform: none;
+}
+
+:root[data-theme="dark"] .right-sidebar-container h2,
+:root[data-theme="dark"] .right-sidebar-panel h2,
+:root[data-theme="dark"] aside.right-sidebar h2 {
+  color: var(--zik-ink-on-dark) !important;
+}
+
+/* Hide the right sidebar / TOC on mobile (matches Claude Code docs behavior) */
+@media (max-width: 72rem) {
+  .right-sidebar-container,
+  .right-sidebar-panel,
+  aside.right-sidebar,
+  #starlight__toc {
+    display: none !important;
+  }
 }
 
 /* ══════════════════════════════════════════ */
@@ -238,9 +379,15 @@ aside.right-sidebar h2 {
   --sl-font: var(--zik-font-sans);
   --sl-font-mono: var(--zik-font-mono);
 
-  --sl-color-accent-high: var(--zik-accent);
-  --sl-color-accent: var(--zik-accent);
-  --sl-color-accent-low: #2a1810;
+  --sl-color-accent-high: var(--zik-ink-on-dark);
+  --sl-color-accent: var(--zik-ink-on-dark);
+  --sl-color-accent-low: var(--sl-color-gray-5);
+  --sl-color-bg-accent: var(--sl-color-gray-5);
+
+  /* Override Starlight's blue semantic tokens with warm equivalents */
+  --sl-color-blue-high: var(--zik-ink-on-dark);
+  --sl-color-blue: var(--zik-accent);
+  --sl-color-blue-low: #2a1810;
 
   --sl-color-black: #09090b;
   --sl-color-white: #f5f5f5;
@@ -292,6 +439,8 @@ aside.right-sidebar h2 {
 }
 
 /* H1 — serif display, large, authoritative */
+/* Starlight renders the page title as an H1 via PageTitle, outside .sl-markdown-content */
+.content-panel h1,
 .sl-markdown-content h1 {
   font-family: var(--zik-font-display);
   font-size: clamp(2.5rem, 5vw, 3.125rem);
@@ -301,6 +450,7 @@ aside.right-sidebar h2 {
   margin-bottom: 0.5rem;
   color: var(--zik-ink);
 }
+:root[data-theme="dark"] .content-panel h1,
 :root[data-theme="dark"] .sl-markdown-content h1 {
   color: var(--zik-ink-on-dark);
 }
@@ -345,6 +495,17 @@ aside.right-sidebar h2 {
 
 :root[data-theme="dark"] .sl-markdown-content h1 + p {
   color: var(--zik-ink-muted);
+}
+
+/* Subtitle — small uppercase label above H1, like Claude docs section labels */
+.zik-subtitle {
+  font-family: var(--zik-font-sans);
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--zik-ink-muted);
+  margin-bottom: 0.25rem;
 }
 
 /* ══════════════════════════════════════════ */
@@ -475,15 +636,30 @@ aside.right-sidebar h2 {
   border: none;
 }
 
+:root[data-theme="dark"] .sl-markdown-content thead th {
+  background-color: var(--sl-color-gray-5);
+  color: var(--sl-color-white);
+}
+
 .sl-markdown-content tbody td {
   padding: 0.625rem 1rem;
   border-bottom: 1px solid var(--zik-border-light);
   background-color: var(--zik-white);
+  color: var(--zik-ink);
 }
 
 :root[data-theme="dark"] .sl-markdown-content tbody td {
   border-bottom-color: var(--sl-color-gray-5);
   background-color: var(--sl-color-bg);
+  color: var(--zik-ink-on-dark);
+}
+
+.sl-markdown-content tbody td a {
+  color: var(--zik-ink);
+}
+
+:root[data-theme="dark"] .sl-markdown-content tbody td a {
+  color: var(--zik-ink-on-dark);
 }
 
 .sl-markdown-content tbody tr:last-child td {
@@ -492,10 +668,12 @@ aside.right-sidebar h2 {
 
 .sl-markdown-content tbody tr:nth-child(even) td {
   background-color: var(--zik-surface-alt);
+  color: var(--zik-ink);
 }
 
 :root[data-theme="dark"] .sl-markdown-content tbody tr:nth-child(even) td {
   background-color: var(--sl-color-gray-6);
+  color: var(--zik-ink-on-dark);
 }
 
 /* ══════════════════════════════════════════ */
@@ -556,6 +734,50 @@ aside.right-sidebar h2 {
 }
 
 /* ══════════════════════════════════════════ */
+/*  PROGRESS BAR — sidebar compliance         */
+/* ══════════════════════════════════════════ */
+
+.zik-progress {
+  padding: 1rem 1rem 1.25rem;
+  border-top: 1px solid var(--zik-border-light);
+  margin-top: 0.5rem;
+}
+
+:root[data-theme="dark"] .zik-progress {
+  border-top-color: var(--sl-color-gray-5);
+}
+
+.zik-progress-track {
+  height: 4px;
+  background: var(--zik-border-light);
+  border-radius: 2px;
+  overflow: hidden;
+}
+
+:root[data-theme="dark"] .zik-progress-track {
+  background: var(--sl-color-gray-5);
+}
+
+.zik-progress-fill {
+  height: 100%;
+  background: var(--zik-ink);
+  border-radius: 2px;
+  transition: width 0.3s ease;
+}
+
+:root[data-theme="dark"] .zik-progress-fill {
+  background: var(--zik-ink-on-dark);
+}
+
+.zik-progress-label {
+  display: block;
+  margin-top: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--zik-ink-muted);
+  font-weight: 500;
+}
+
+/* ══════════════════════════════════════════ */
 /*  FOOTER                                   */
 /* ══════════════════════════════════════════ */
 
@@ -567,11 +789,24 @@ footer {
   color: var(--zik-ink-muted);
 }
 
+:root[data-theme="dark"] footer {
+  border-top-color: var(--sl-color-gray-5) !important;
+  color: var(--zik-ink-muted);
+}
+
 footer a {
   color: var(--zik-ink-secondary);
   text-decoration: underline;
 }
 
+:root[data-theme="dark"] footer a {
+  color: var(--zik-ink-muted);
+}
+
 footer a:hover {
   color: var(--zik-ink);
+}
+
+:root[data-theme="dark"] footer a:hover {
+  color: var(--zik-ink-on-dark);
 }

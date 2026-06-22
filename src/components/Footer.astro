@@ -22,6 +22,69 @@
   </p>
 </div>
 
+<script>
+  // ── Checkbox persistence ──
+  const key = 'zik-checkboxes-' + window.location.pathname;
+  const saved = JSON.parse(localStorage.getItem(key) || '{}');
+
+  const checkboxes = document.querySelectorAll('.sl-markdown-content .task-list-item input[type="checkbox"]');
+  checkboxes.forEach((cb, i) => {
+    cb.removeAttribute('disabled');
+    if (saved[i] !== undefined) cb.checked = saved[i];
+    cb.addEventListener('change', () => {
+      saved[i] = cb.checked;
+      localStorage.setItem(key, JSON.stringify(saved));
+      updateGlobalProgress();
+    });
+  });
+
+  // ── Global compliance progress in sidebar ──
+  function updateGlobalProgress() {
+    // Pages with their known number of checkboxes
+    const pages = [
+      { path: '/zik/gobernantza/',   total: 6 },
+      { path: '/zik/identifikatu/',  total: 4 },
+      { path: '/zik/babestu/',       total: 6 },
+      { path: '/zik/detektatu/',     total: 8 },
+      { path: '/zik/erantzun/',      total: 4 },
+      { path: '/zik/berreskuratu/',  total: 4 },
+    ];
+    let grandTotal = 0, done = 0;
+    pages.forEach(({ path, total }) => {
+      grandTotal += total;
+      const data = JSON.parse(localStorage.getItem('zik-checkboxes-' + path) || '{}');
+      for (let i = 0; i < total; i++) {
+        if (data[i]) done++;
+      }
+    });
+
+    const fill = document.querySelector('.zik-progress-fill');
+    const label = document.querySelector('.zik-progress-label');
+    if (grandTotal > 0 && fill && label) {
+      const pct = Math.round((done / grandTotal) * 100);
+      fill.style.width = pct + '%';
+      label.textContent = 'Eginbeharrak ' + pct + '% (' + done + '/' + grandTotal + ')';
+    }
+  }
+
+  // Inject progress bar into sidebar content
+  const sidebarContent = document.querySelector('.sidebar-content');
+  if (sidebarContent && !document.getElementById('zik-progress')) {
+    const el = document.createElement('div');
+    el.id = 'zik-progress';
+    el.className = 'zik-progress';
+    el.innerHTML = `
+      <div class="zik-progress-track">
+        <div class="zik-progress-fill" style="width:0%"></div>
+      </div>
+      <span class="zik-progress-label">Eginbeharrak 0%</span>
+    `;
+    sidebarContent.appendChild(el);
+  }
+
+  updateGlobalProgress();
+</script>
+
 <style>
   .ft-wrapper {
     max-width: var(--sl-content-width);

@@ -1,9 +1,7 @@
 ---
-title: Babestu
+title: 3. Babestu
 description: Pasahitzak, eguneratzeak, babeskopiak — oinarrizko hiru neurriak sistemen babeserako
 ---
-
-# 3. Babestu
 
 Segurtasun-politika idatzi duzu (Gobernantza). Orain **teknikoki babestu**
 behar dituzu sistemak: pasahitzak, eguneratzeak, babeskopiak, eta sarearen

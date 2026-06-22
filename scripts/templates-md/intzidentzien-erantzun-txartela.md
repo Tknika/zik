@@ -1,6 +1,6 @@
 # Intzidentzien erantzun-txartela — {{schoolName}}
 
-Data: {{incidentCardDate}}
+Data: {{incidentCardDate}}<br>
 Dokumentu-erreferentzia: ZIK-INT-{{schoolCode}}
 
 ---

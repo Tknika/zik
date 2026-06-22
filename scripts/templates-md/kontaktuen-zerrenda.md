@@ -1,6 +1,6 @@
 # Kontaktuen zerrenda — {{schoolName}}
 
-Data: {{contactListDate}}
+Data: {{contactListDate}}<br>
 Dokumentu-erreferentzia: ZIK-KON-{{schoolCode}}
 
 ---

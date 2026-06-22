@@ -1,9 +1,7 @@
 ---
-title: Identifikatu
+title: 2. Identifikatu
 description: Zerrendatu aktiboak, identifikatu datu sentikorrak eta arrisku nagusiak.
 ---
-
-# 2. Identifikatu
 
 Ezin duzu babestu zer daukazun ez dakizuna. Atal honetan zure ikastetxearen
 **aktiboak, datu sentikorrak eta arrisku nagusiak** identifikatuko dituzu.

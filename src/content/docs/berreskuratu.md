@@ -1,9 +1,7 @@
 ---
-title: Berreskuratu
+title: 6. Berreskuratu
 description: Berreskurapen-prozedura idatzi eta probatu — zerbitzuak eta datuak nola berreskuratu intzidentzia baten ondoren
 ---
-
-# 6. Berreskuratu
 
 Intzidentzia baten ondoren **normaltasunera itzultzea** da. Babeskopietatik
 datuak eta zerbitzuak berreskuratu eta ikastetxearen funtzionamendua

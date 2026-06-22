@@ -1,6 +1,6 @@
 # Segurtasun-politika — {{schoolName}}
 
-Data: {{policyDate}}
+Data: {{policyDate}}<br>
 Dokumentu-erreferentzia: ZIK-SP-{{schoolCode}}
 
 ---
@@ -93,7 +93,7 @@ izango da.
 Politika hau **urtero berrikusiko da**, edo aldaketa esanguratsuren bat
 gertatuz gero (sistema berriak, langile-aldaketak, araudi berriak…).
 
-Azken berrikuspena: {{policyDate}}  
+Azken berrikuspena: {{policyDate}}<br>
 Hurrengo berrikuspena: {{nextReviewDate}}
 
 ---

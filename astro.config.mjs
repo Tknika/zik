@@ -7,7 +7,7 @@ export default defineConfig({
   base: '/zik/',
   integrations: [
     starlight({
-      title: 'Zik — Zibersegurtasuna Ikastetxeetan',
+      title: 'Zik',
       defaultLocale: 'root',
       locales: {
         root: {

@@ -5,9 +5,18 @@ generate_templates.py — Convert Markdown templates to DOCX and PDF.
 Reads Markdown sources from scripts/templates-md/ (and es/ subdirectory),
 converts each to PDF (via weasyprint) and DOCX (via pandoc or python-docx),
 and writes output to public/templates/ (and public/templates/es/).
+
+Placeholder handling ({{field_name}}):
+  - If a JSON data file is provided (--data), placeholders are replaced with values
+    from that file. Empty values → visual gap (underline or HTML blank).
+  - In PDF mode: empty placeholders become styled HTML gaps (inline-block with border-bottom).
+  - In DOCX mode: empty placeholders become literal underscore lines.
+  - Without --data (build time): all placeholders become visual gaps, so the PDF/DOCX
+    templates show blank spaces ready to be filled manually.
 """
 import argparse
 import json
+import re
 import subprocess
 import sys
 from pathlib import Path
@@ -38,9 +47,62 @@ md.inline.ruler.enable("table", True)
 md.block.ruler.enable("table", True)
 
 
-def md_to_html(md_path: Path) -> str:
-    """Read a Markdown file and return HTML string."""
+def _blank_for_pdf(width_chars: int = 20) -> str:
+    """Return an HTML gap that renders as a fillable blank line in weasyprint PDF.
+
+    Uses an inline-block span with a bottom border — looks like a handwritten
+    line in the PDF but renders as a visible blank space on screen too.
+    """
+    width_px = width_chars * 9  # rough: 9px per char at 11pt
+    return (
+        f'<span style="display:inline-block;min-width:{width_px}px;'
+        f'border-bottom:1px solid #666;text-align:center;">&nbsp;</span>'
+    )
+
+
+def _blank_for_docx(width_chars: int = 20) -> str:
+    """Return a literal underscore line for DOCX (pandoc converts _ to underscore)."""
+    return "_" * width_chars
+
+
+def replace_placeholders(text: str, data: dict | None, *, for_pdf: bool) -> str:
+    """Replace all {{placeholder}} occurrences in text.
+
+    - If data has the key and a non-empty value → replace with the value.
+    - If data has the key but empty value → replace with visual blank/gap.
+    - If key is missing from data entirely → replace with visual blank/gap.
+    - for_pdf=True → HTML gaps; for_pdf=False → literal underscores (DOCX).
+
+    Supports inline placeholders in table cells, paragraphs, headings, etc.
+    """
+    if data is None:
+        data = {}
+
+    # Estimate gap width from the placeholder name length + some padding
+    def gap(key: str) -> str:
+        # Width roughly proportional to field name, capped between 15-35 chars
+        width = max(15, min(35, len(key) + 5))
+        return _blank_for_pdf(width) if for_pdf else _blank_for_docx(width)
+
+    pattern = re.compile(r"\{\{(\w+)\}\}")
+
+    def replacer(m: re.Match[str]) -> str:
+        key = m.group(1)
+        value = data.get(key)
+        if value and isinstance(value, str):
+            v = value.strip()
+            if v:
+                return v
+        # Empty or missing → visual gap
+        return gap(key)
+
+    return pattern.sub(replacer, text)
+
+
+def md_to_html(md_path: Path, data: dict | None = None) -> str:
+    """Read a Markdown file, replace placeholders, and return HTML string."""
     text = md_path.read_text(encoding="utf-8")
+    text = replace_placeholders(text, data, for_pdf=True)
     body = md.render(text)
 
     # Minimal HTML wrapper for weasyprint
@@ -137,7 +199,22 @@ def html_to_docx(html: str, out_path: Path) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser(description="Generate DOCX/PDF templates from Markdown")
     parser.add_argument("--lang", choices=["eu", "es"], help="Only process one language")
+    parser.add_argument(
+        "--data",
+        type=Path,
+        help="JSON file with user data for placeholder replacement (e.g., from localStorage export)",
+    )
     args = parser.parse_args()
+
+    # Load optional user data
+    user_data: dict | None = None
+    if args.data:
+        data_path = Path(args.data)
+        if data_path.exists():
+            user_data = json.loads(data_path.read_text(encoding="utf-8"))
+            print(f"📋 Loaded user data from {data_path}")
+        else:
+            print(f"⚠ Data file not found: {data_path}", file=sys.stderr)
 
     processed = 0
     failed = 0
@@ -158,9 +235,14 @@ def main() -> None:
             print(f"▶ {name} ({lang})")
 
             try:
-                html = md_to_html(md_file)
+                # PDF: placeholders → HTML gaps
+                html = md_to_html(md_file, user_data)
                 html_to_pdf(html, dst / f"{name}.pdf")
-                html_to_docx(html, dst / f"{name}.docx")
+                # DOCX: placeholders → literal underscore lines
+                md_text = md_file.read_text(encoding="utf-8")
+                md_text = replace_placeholders(md_text, user_data, for_pdf=False)
+                html_for_docx = md.render(md_text)
+                html_to_docx(html_for_docx, dst / f"{name}.docx")
                 processed += 1
             except Exception as exc:
                 print(f"  ✗ FAILED: {exc}", file=sys.stderr)

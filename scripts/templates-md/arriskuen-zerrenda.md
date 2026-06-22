@@ -1,6 +1,6 @@
 # Arriskuen zerrenda — {{schoolName}}
 
-Data: {{riskListDate}}
+Data: {{riskListDate}}<br>
 Dokumentu-erreferentzia: ZIK-ARR-{{schoolCode}}
 
 ---

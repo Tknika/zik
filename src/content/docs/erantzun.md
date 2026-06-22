@@ -1,9 +1,7 @@
 ---
-title: Erantzun
+title: 5. Erantzun
 description: Intzidentzia baten aurrean zer egin — erabiltzaileentzako gida eta arduradunaren erantzun-txartela
 ---
-
-# 5. Erantzun
 
 Intzidentzia bat gertatzen denean —ransomware, phishing arrakastatsua,
 datu-filtratzea— **zer egin behar den jakitea** da. Bi elementu nagusi:

@@ -1,9 +1,7 @@
 ---
-title: Gida — nola erabili Zik
+title: Nola erabili gida hau
 description: Azalpen laburra Zik-en egiturari eta erabilera-moduari buruz
 ---
-
-# Nola erabili gida hau
 
 Zik ez da hasieratik amaierara irakurtzeko liburu bat. **Lanerako tresna bat da.**
 Hona hemen nola funtzionatzen duen.

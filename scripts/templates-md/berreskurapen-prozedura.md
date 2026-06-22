@@ -1,6 +1,6 @@
 # Berreskurapen-prozedura — {{schoolName}}
 
-Data: {{recoveryPlanDate}}
+Data: {{recoveryPlanDate}}<br>
 Dokumentu-erreferentzia: ZIK-BER-{{schoolCode}}
 
 ---
@@ -106,7 +106,7 @@ Hilero berreskuratu **VM bat proba gisa** eta egiaztatu:
 Prozedura hau **urtero berrikusiko da**, edo azpiegitura aldatzen den bakoitzean
 (zerbitzari berriak, zerbitzu berriak, babeskopia-sistema berria).
 
-Azken berrikuspena: {{recoveryPlanDate}}  
+Azken berrikuspena: {{recoveryPlanDate}}<br>
 Hurrengo berrikuspena: {{nextRecoveryReviewDate}}
 
 ---

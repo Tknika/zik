@@ -1,9 +1,7 @@
 ---
-title: Gobernantza
+title: 1. Gobernantza
 description: Zibersegurtasunaren oinarria — arduraduna izendatu, politika idatzi, antolatu
 ---
-
-# 1. Gobernantza
 
 Gobernantza da zibersegurtasunaren **oinarria**. Hemen erabakitzen da
 nor arduratzen den, zein araurekin, eta nola antolatzen den ikastetxea.

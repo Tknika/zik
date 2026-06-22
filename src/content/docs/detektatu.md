@@ -1,9 +1,7 @@
 ---
-title: Detektatu
+title: 4. Detektatu
 description: Monitorizazioa, alertak eta detekzio-geruzak. Jakin zerbait gertatzen ari denean.
 ---
-
-# 4. Detektatu
 
 Zure sistemetan **zerbait arraroa gertatzen ari den jakitea** da.
 Babestu duzu (pasahitzak, eguneratzeak, babeskopiak). Baina eraso bat

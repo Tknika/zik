@@ -1,6 +1,6 @@
 # Babeskopien politika — {{schoolName}}
 
-Data: {{backupPolicyDate}}
+Data: {{backupPolicyDate}}<br>
 Dokumentu-erreferentzia: ZIK-BAB-{{schoolCode}}
 
 ---
@@ -69,7 +69,7 @@ Honek barne hartzen ditu:
 Politika hau **urtero berrikusiko da** edo aldaketa esanguratsuren
 bat gertatuz gero.
 
-Azken berrikuspena: {{backupPolicyDate}}  
+Azken berrikuspena: {{backupPolicyDate}}<br>
 Hurrengo berrikuspena: {{nextBackupReviewDate}}
 
 ---
