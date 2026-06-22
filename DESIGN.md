@@ -21,26 +21,35 @@ colors:
   warning: "#8b6914"
   danger: "#b33a3a"
 typography:
-  font-family: "Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif"
-  font-mono: "JetBrains Mono, SF Mono, SFMono-Regular, Menlo, Monaco, monospace"
+  font-display: "Georgia, 'Times New Roman', Times, serif"
+  font-sans: "system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif"
+  font-mono: "ui-monospace, 'SF Mono', Menlo, Consolas, monospace"
   h1:
-    fontSize: "clamp(2rem, 5vw, 2.5rem)"
+    fontFamily: "display"
+    fontSize: "clamp(2.5rem, 5vw, 3.125rem)"
     fontWeight: "700"
-    letterSpacing: "-0.025em"
-    lineHeight: 1.2
+    letterSpacing: "-0.02em"
+    lineHeight: 1.15
   h2:
-    fontSize: "1.5rem"
+    fontFamily: "display"
+    fontSize: "1.75rem"
+    fontWeight: "600"
+    letterSpacing: "-0.015em"
+    lineHeight: 1.3
+  h3:
+    fontFamily: "display"
+    fontSize: "1.25rem"
     fontWeight: "600"
     letterSpacing: "-0.01em"
     lineHeight: 1.35
-  h3:
-    fontSize: "1.15rem"
-    fontWeight: "600"
   body:
+    fontFamily: "sans"
     fontSize: "1rem"
-    lineHeight: 1.75
+    fontWeight: "400"
+    lineHeight: 1.65
   lead:
-    fontSize: "1.125rem"
+    fontFamily: "sans"
+    fontSize: "1.0625rem"
     color: "#3d3d3d"
 rounded:
   sm: 4px
@@ -80,8 +89,10 @@ accent orange for interactive elements.
 
 ## Typography
 
-- **Headings & Body:** Inter (sans-serif). Clean, modern, highly readable.
-- **Code:** JetBrains Mono.
+- **Headings:** Georgia (serif, like Anthropic Serif Display). Large, authoritative,
+  with tight letter-spacing.
+- **Body:** System sans-serif (like Anthropic Sans). Clean, highly readable.
+- **Code:** System monospace (SF Mono / Menlo / Consolas).
 - Links are black with a subtle underline — no blue, no accent coloring.
 
 ## Components

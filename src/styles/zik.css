@@ -36,9 +36,12 @@
   --zik-warning: #8b6914;
   --zik-danger: #b33a3a;
 
-  /* Typography */
-  --zik-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
-  --zik-font-mono: 'JetBrains Mono', 'SF Mono', SFMono-Regular, Menlo, Monaco, monospace;
+  /* Typography — matches code.claude.com fallback chains */
+  /* Headings: serif (Georgia fallback, like Anthropic Serif Display) */
+  /* Body:      system sans-serif (like Anthropic Sans) */
+  --zik-font-sans: system-ui, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+  --zik-font-display: Georgia, 'Times New Roman', Times, serif;
+  --zik-font-mono: ui-monospace, 'SF Mono', Menlo, Consolas, monospace;
 
   /* Radii */
   --zik-radius-sm: 4px;
@@ -54,7 +57,7 @@
 
 :root,
 :root[data-theme="light"] {
-  --sl-font: var(--zik-font);
+  --sl-font: var(--zik-font-sans);
   --sl-font-mono: var(--zik-font-mono);
 
   /* Accent — warm orange, used sparingly */
@@ -232,7 +235,7 @@ aside.right-sidebar h2 {
 /* ══════════════════════════════════════════ */
 
 :root[data-theme="dark"] {
-  --sl-font: var(--zik-font);
+  --sl-font: var(--zik-font-sans);
   --sl-font-mono: var(--zik-font-mono);
 
   --sl-color-accent-high: var(--zik-accent);
@@ -272,13 +275,15 @@ aside.right-sidebar h2 {
 }
 
 /* ══════════════════════════════════════════ */
-/*  TYPOGRAPHY                               */
+/*  TYPOGRAPHY — Serif headings, sans body   */
 /* ══════════════════════════════════════════ */
 
+/* Body — sans-serif, relaxed reading rhythm */
 .sl-markdown-content {
-  font-family: var(--zik-font);
+  font-family: var(--zik-font-sans);
   font-size: 1rem;
-  line-height: 1.75;
+  font-weight: 400;
+  line-height: 1.65;
   color: var(--zik-ink);
 }
 
@@ -286,36 +291,56 @@ aside.right-sidebar h2 {
   color: var(--zik-ink-on-dark);
 }
 
+/* H1 — serif display, large, authoritative */
 .sl-markdown-content h1 {
-  font-size: clamp(2rem, 5vw, 2.5rem);
+  font-family: var(--zik-font-display);
+  font-size: clamp(2.5rem, 5vw, 3.125rem);
   font-weight: 700;
-  letter-spacing: -0.025em;
-  line-height: 1.2;
+  letter-spacing: -0.02em;
+  line-height: 1.15;
   margin-bottom: 0.5rem;
+  color: var(--zik-ink);
+}
+:root[data-theme="dark"] .sl-markdown-content h1 {
+  color: var(--zik-ink-on-dark);
 }
 
+/* H2 — serif, medium-large, with subtle bottom border */
 .sl-markdown-content h2 {
-  font-size: 1.5rem;
+  font-family: var(--zik-font-display);
+  font-size: 1.75rem;
   font-weight: 600;
-  letter-spacing: -0.01em;
-  line-height: 1.35;
+  letter-spacing: -0.015em;
+  line-height: 1.3;
   margin-top: 2.5rem;
   padding-bottom: 0.5rem;
   border-bottom: 1px solid var(--zik-border-light);
+  color: var(--zik-ink);
+}
+:root[data-theme="dark"] .sl-markdown-content h2 {
+  color: var(--zik-ink-on-dark);
 }
 
+/* H3 — serif, smaller */
 .sl-markdown-content h3 {
-  font-size: 1.15rem;
+  font-family: var(--zik-font-display);
+  font-size: 1.25rem;
   font-weight: 600;
-  line-height: 1.4;
+  letter-spacing: -0.01em;
+  line-height: 1.35;
   margin-top: 2rem;
+  color: var(--zik-ink);
+}
+:root[data-theme="dark"] .sl-markdown-content h3 {
+  color: var(--zik-ink-on-dark);
 }
 
-/* Subtitle / lead paragraph after h1 */
+/* Lead paragraph after h1 — slightly larger sans-serif */
 .sl-markdown-content h1 + p {
-  font-size: 1.125rem;
+  font-family: var(--zik-font-sans);
+  font-size: 1.0625rem;
   color: var(--zik-ink-secondary);
-  line-height: 1.7;
+  line-height: 1.65;
 }
 
 :root[data-theme="dark"] .sl-markdown-content h1 + p {
