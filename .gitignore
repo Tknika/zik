@@ -1,0 +1,62 @@
+# =============================================================================
+# Zik — Zibersegurtasuna Ikastetxeetan
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# ISO/IEC 27001:2022 — Paid standard (155 CHF via iso.org)
+# The PDF and its Markdown conversion are kept locally as internal authoring
+# references only. They MUST NOT be committed to the public repository.
+# Content authors should use these files to map simplified ISO 27001 control
+# references in the site's guidance pages, but the originals are not
+# redistributable. If a public reference is needed, link to the official
+# page: https://www.iso.org/standard/27001
+# ---------------------------------------------------------------------------
+sources/ISO_IEC_27001_2022.pdf
+sources/ISO27001_2022.md
+
+# ---------------------------------------------------------------------------
+# NIS2 Directive PDF — obtained from a third-party mirror (netdescribe.com).
+# EUR-Lex blocks direct PDF downloads (requires JS/cookies). Kept locally as
+# a convenience reference. The authoritative source is:
+# https://eur-lex.europa.eu/eli/dir/2022/2555/oj/eng
+# If licensing concerns arise, remove the PDF and reference the EUR-Lex HTML.
+# The Markdown conversion is kept as an internal authoring aid.
+# ---------------------------------------------------------------------------
+# (NIS2 is an EU legal text — publicly available. Keeping tracked for now.
+#  Uncomment the lines below if the PDF source becomes problematic.)
+# sources/NIS2_Directive_2022_2555_EN.pdf
+# sources/NIS2_Directive_2022_2555_EN.md
+
+# ---------------------------------------------------------------------------
+# Astro / Starlight build output
+# ---------------------------------------------------------------------------
+dist/
+.astro/
+
+# ---------------------------------------------------------------------------
+# Python virtual environments (uv-managed)
+# ---------------------------------------------------------------------------
+.venv/
+venv/
+__pycache__/
+*.pyc
+scripts/.venv/
+scripts/__pycache__/
+scripts/.python-version
+
+# ---------------------------------------------------------------------------
+# OS / editor / tooling noise
+# ---------------------------------------------------------------------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------------------
+# Node / build artifacts
+# ---------------------------------------------------------------------------
+node_modules/
+.cache/

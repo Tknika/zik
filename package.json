@@ -1,0 +1,21 @@
+{
+  "name": "zik",
+  "version": "0.1.0",
+  "description": "Zik — Zibersegurtasuna Ikastetxeetan",
+  "type": "module",
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "preview": "astro preview",
+    "astro": "astro",
+    "templates": "cd scripts && uv run python generate_templates.py"
+  },
+  "keywords": [],
+  "author": "Tknika — Digitaldeak",
+  "license": "MIT",
+  "dependencies": {
+    "@astrojs/starlight": "^0.40.0",
+    "astro": "^6.4.8"
+  }
+}
