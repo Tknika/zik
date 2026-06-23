@@ -549,26 +549,24 @@ aside.right-sidebar h2 {
 
 .sl-markdown-content a {
   color: var(--zik-ink);
-  font-weight: 600;
   text-decoration: underline;
-  text-underline-offset: 4px;
+  text-underline-offset: 2px;
   text-decoration-thickness: 1px;
-  text-decoration-color: color-mix(in srgb, var(--zik-ink) 30%, transparent);
-  transition: text-decoration-color 0.15s ease, text-decoration-thickness 0.15s ease;
+  text-decoration-color: var(--zik-ink);
+  transition: text-decoration-thickness 0.15s ease;
 }
 
 .sl-markdown-content a:hover {
-  text-decoration-color: var(--zik-ink);
   text-decoration-thickness: 2px;
 }
 
 :root[data-theme="dark"] .sl-markdown-content a {
   color: var(--zik-ink-on-dark);
-  text-decoration-color: rgba(245, 245, 245, 0.3);
+  text-decoration-color: var(--zik-ink-on-dark);
 }
 
 :root[data-theme="dark"] .sl-markdown-content a:hover {
-  text-decoration-color: var(--zik-ink-on-dark);
+  text-decoration-thickness: 2px;
 }
 
 /* ══════════════════════════════════════════ */
