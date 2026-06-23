@@ -549,6 +549,7 @@ aside.right-sidebar h2 {
 
 .sl-markdown-content a {
   color: var(--zik-ink);
+  font-weight: 600;
   text-decoration: underline;
   text-underline-offset: 4px;
   text-decoration-thickness: 1px;
