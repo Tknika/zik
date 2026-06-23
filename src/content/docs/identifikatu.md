@@ -17,16 +17,15 @@ compliance:
   annexA_pct: 24
 ---
 
-Ezin duzu babestu zer daukazun ez dakizuna. Atal honetan zure ikastetxearen
+Ez duzuna ezagutzen ezin duzu babestu. Atal honetan zure ikastetxearen
 **aktiboak, datu sentikorrak eta arrisku nagusiak** identifikatuko dituzu.
 
 ---
 
 ## Zergatik da garrantzitsua?
 
-- Ransomware batek zer zifratu duen jakiteko, lehenengo jakin behar duzu
-  zer daukazun.
-- Aseguru edo aholkulari batek galdetzen badizu, zerrenda bat eman beharko duzu.
+- Ez badira aktiboak behar bezala identifikatzen, ezagutzen ez ditugun erabiltzaile, gailu, aplikazio, etab. arrisku bihurtu daitezke
+- Erasorik jasaten badugu, erantzun azkarra eta eraginkorra izateko ezinbestekoa
 
 ---
 

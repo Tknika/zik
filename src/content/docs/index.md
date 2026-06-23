@@ -26,19 +26,16 @@ Zik bi nazioarteko estandarretan oinarritzen da, bakoitza helburu batekin:
 
 **Zergatik konbinazio hau?**
 
-- NIST CSF 2.0-k **komunikazioa errazten du**: zuzendaritzak, irakasleek eta
-  langileek galdetu beharrean _zer den_ zibersegurtasuna, jakin dezakete
-  _zer egin_ eta _non kokatzen den_ babes-zikloan.
+- NIST CSF 2.0-k **komunikazioa errazten du**: zuzendaritzako kideek, irakasleek eta ikasleek jakin dezakete
+  _zer egin_ eta haien burua _non kokatzen den_ babes-zikloan.
 - ISO 27001-ek **sakontasun operatiboa eta froga-sistema** eskaintzen du:
-  auditoria-pasak, ebidentzia erreferentziak eta etengabeko hobekuntzaren
+  auditoria-pasatzeko, ebidentzia erreferentziak eta etengabeko hobekuntzaren
   kultura.
 - Biek partekatzen dute **arriskuan oinarritutako ikuspegia** eta
   **etengabeko hobekuntza**. Elkarren osagarri dira, ez lehiakide.
 
 → Ikusi **[ISO 27001 estaldura](/zik/estaldura/)** gidan
 integratutako klausula eta Annex A kontrolen estaldura-maila ikusteko.
-
-Ez da entziklopedia bat. Ez da lege-testu bat. **Eginbehar zerrenda bat da.**
 
 ---
 
@@ -72,19 +69,9 @@ ziklo baten moduan. Gobernantza erdian dago, beste bostak inguruan.*
 
 | Profila | Zergatik da zuretzat? |
 |---------|----------------------|
-| **Zuzendaritza** | Lege-betekizunak (RGPD, ENS, NIS2) betetzen laguntzen dizu, egindakoaren froga dokumentalarekin |
-| **IT arduradunak** | Antolakuntzatik teknikora, pausoz pauso, praktikan oinarrituta |
+| **Zuzendaritza kideak** | Lege-betekizunak (RGPD, ENS, NIS2) betetzen laguntzen dizu, egindakoaren froga dokumentalarekin |
+| **Azpiegitura digitalen arduradunak** | Antolakuntzatik teknikora, pausoz pauso, praktikan oinarrituta |
 | **Irakasleak eta langileak** | Jakin zer egin zure egunerokoan datuak babesteko eta intzidentzia baten aurrean |
 
 ---
 
-## Ezaugarriak
-
-- **Euskaraz** (eta gaztelaniaz laster)
-- **Praktikoa**: atal bakoitzak zer egin azaltzen du, ez zer den
-- **Markdown hutsa**: inprimatu, kopiatu, moldatu — zurea da
-- **NIST CSF 2.0n oinarritua**: nazioarteko estandarra, itzulia eta egokitua (egitura)
-- **ISO 27001:2022rekin lerrokatua**: Annex A kontrolak eta ISMS klausulak (edukia)
-- **ENS, NIS2, RGPD erreferentziak**: atal bakoitzean
-- **Deskargatzeko txantiloiak**: bete eta sinatu zure ikastetxearen izenean
-- **Doan eta irekia**: CC BY-SA 4.0 edukia, MIT kodea
