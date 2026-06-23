@@ -57,6 +57,17 @@ Rolak eta erantzukizunak definitzeko matrizea.
 | DOCX | [Deskargatu DOCX](/zik/templates/raci-matrizea.docx) |
 | PDF | [Deskargatu PDF](/zik/templates/raci-matrizea.pdf) |
 
+### Konfidentzialtasun-akordioa
+
+Informazio konfidentziala ez zabaltzeko akordioa, langile, kolaboratzaile eta
+hornitzaileek sinatzekoa (ISO 27001: A.6.2; RGPD).
+[Gida &rarr;](../gobernantza/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/konfidentzialtasun-akordioa.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/konfidentzialtasun-akordioa.pdf) |
+
 ---
 
 ## Identifikatu
@@ -93,11 +104,45 @@ CCN-CERTen katalogoan oinarritutako mehatxu-zerrenda.
 | DOCX | [Deskargatu DOCX](/zik/templates/mehatxuen-katalogoa.docx) |
 | PDF | [Deskargatu PDF](/zik/templates/mehatxuen-katalogoa.pdf) |
 
+### Hornitzaileen ebaluazioa
+
+Datuetarako sarbidea duten hornitzaileen segurtasun-ebaluazioa egiteko
+txantiloia (ISO 27001: A.5.19–A.5.22; RGPD: 28. art.).
+[Gida &rarr;](../identifikatu/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/hornitzaileen-ebaluazioa.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/hornitzaileen-ebaluazioa.pdf) |
+
 ---
 
 ## Babestu
 
 Sistemak eta datuak babesteko neurriak.
+
+### Sarbide-kontrolaren politika
+
+Rolen araberako sarbideen politika: altak, bajak, aldaketak, berrikuspena
+(ISO 27001: A.5.15, A.5.18, A.8.2, A.8.3).
+[Gida &rarr;](../babestu/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/sarbide-politika.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/sarbide-politika.pdf) |
+
+### Erabiltzaileen kudeaketa-erregistroa
+
+Alta, baja, aldaketa, salbuespen eta sarbide-berrikuspenen erregistro
+operatiboa. Ikasturte hasierako alta masiboentzako atal bereziarekin
+(ISO 27001: A.5.16, A.5.18, A.5.37, 7.5).
+[Gida &rarr;](../babestu/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/erabiltzaileen-kudeaketa-erregistroa.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/erabiltzaileen-kudeaketa-erregistroa.pdf) |
 
 ### Babeskopien politika
 
@@ -155,6 +200,17 @@ sailkapena, edukiera, ikerketa, berreskurapena, post-mortem analisia.
 
 Intzidentzia baten ondoren zerbitzuak eta datuak berreskuratzeko.
 
+### BIA — Negozio-eraginaren analisia
+
+Zerbitzu bakoitzaren RTO eta RPO definitzeko txantiloia, fallback planarekin
+eta DR proben egutegiarekin (ISO 27001: A.5.30).
+[Gida &rarr;](../berreskuratu/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/bia.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/bia.pdf) |
+
 ### Berreskurapen-prozedura
 
 Zerbitzuak eta datuak berreskuratzeko prozedura, ingurune birtualizaturako.
@@ -166,6 +222,17 @@ Lau eszenario, lehentasun-zerrenda, hilero probatzeko jarraibidea
 |----------|------------|
 | DOCX | [Deskargatu DOCX](/zik/templates/berreskurapen-prozedura.docx) |
 | PDF | [Deskargatu PDF](/zik/templates/berreskurapen-prozedura.pdf) |
+
+### Espedienteen kontserbazio-politika
+
+Dokumentuen kontserbazio-epeak, biltegiratze-modua eta suntsipen-prozedura
+definitzeko txantiloia (ISO 27001: A.5.33; RGPD).
+[Gida &rarr;](../berreskuratu/)
+
+| Formatua | Deskargatu |
+|----------|------------|
+| DOCX | [Deskargatu DOCX](/zik/templates/espedienteen-kontserbazio-politika.docx) |
+| PDF | [Deskargatu PDF](/zik/templates/espedienteen-kontserbazio-politika.pdf) |
 
 ---
 

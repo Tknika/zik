@@ -46,6 +46,9 @@ const rows: SectionRow[] = Object.entries(sections).map(([slug, cov]) => {
   const refC = [...new Set(s.clauses.referenced)].sort();
   const covA = [...new Set(s.annexA.covered)].sort();
   const refA = [...new Set(s.annexA.referenced)].sort();
+  // deduplicate: referenced IDs that also appear as covered only count once in total
+  const totalC = new Set([...covC, ...refC]);
+  const totalA = new Set([...covA, ...refA]);
   return {
     slug,
     label: sectionMeta[slug]?.label ?? slug,
@@ -55,8 +58,8 @@ const rows: SectionRow[] = Object.entries(sections).map(([slug, cov]) => {
     refAnnexA: refA,
     covClausesPct: Math.round((covC.length / TOTAL_CLAUSES) * 100),
     covAnnexAPct: Math.round((covA.length / TOTAL_ANNEX_A) * 100),
-    totalClausesPct: Math.round(((covC.length + refC.length) / TOTAL_CLAUSES) * 100),
-    totalAnnexAPct: Math.round(((covA.length + refA.length) / TOTAL_ANNEX_A) * 100),
+    totalClausesPct: Math.round((totalC.size / TOTAL_CLAUSES) * 100),
+    totalAnnexAPct: Math.round((totalA.size / TOTAL_ANNEX_A) * 100),
   };
 });
 
@@ -74,8 +77,8 @@ for (const r of rows) {
 
 const globalCovClausesPct = Math.round((allCovClauses.size / TOTAL_CLAUSES) * 100);
 const globalCovAnnexAPct = Math.round((allCovAnnexA.size / TOTAL_ANNEX_A) * 100);
-const globalTotalClauses = allCovClauses.size + allRefClauses.size;
-const globalTotalAnnexA = allCovAnnexA.size + allRefAnnexA.size;
+const globalTotalClauses = new Set([...allCovClauses, ...allRefClauses]).size;
+const globalTotalAnnexA = new Set([...allCovAnnexA, ...allRefAnnexA]).size;
 const globalTotalClausesPct = Math.round((globalTotalClauses / TOTAL_CLAUSES) * 100);
 const globalTotalAnnexAPct = Math.round((globalTotalAnnexA / TOTAL_ANNEX_A) * 100);
 ---

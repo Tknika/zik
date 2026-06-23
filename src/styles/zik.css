@@ -268,11 +268,12 @@ div.sidebar-content summary {
   color: var(--zik-ink-on-dark) !important;
 }
 
-/* Search button — neutral, with border */
+/* Search button — neutral, with border, fits within header */
 site-search button[data-open-modal] {
   color: var(--zik-ink-muted) !important;
   background-color: var(--zik-white) !important;
   border: 1px solid var(--zik-border) !important;
+  height: 2rem !important;
 }
 
 site-search button[data-open-modal]:hover {

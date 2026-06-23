@@ -81,14 +81,32 @@ Hiru hilean behin 20 minutuko bilera. Parte-hartzaileak:
 Bileren gai-zerrenda finkoa: azken aldiko intzidentziak, egindakoa,
 hurrengo urratsak.
 
-### 5. Definitu rolak RACI matrizearekin (hautazkoa)
+### 5. Sinatu konfidentzialtasun-akordioak (ISO 27001 A.6.2, A.5.10)
+
+RGPDk eta ISO 27001ek eskatzen dute datu pertsonaletara edo informazio
+konfidentzialera sarbidea duen edonork konfidentzialtasun-konpromisoa
+sinatzea (langileak, kontratistak, praktiketako ikasleak, hornitzaileak…).
+
+Akordioak jasotzen du:
+- Zer den informazio konfidentziala (ikasleen datuak, pasahitzak,
+  informazio ekonomikoa, teknikoa…).
+- Ez zabaltzeko, ez pilatzeko eta datuak babesteko konpromisoa.
+- Intzidentziak berehala jakinarazteko betebeharra.
+- Gailuak itzultzeko eta datuak ezabatzeko betebeharra lan-harremana
+  amaitzean.
+- Konfidentzialtasunak **lan-harremana amaitu ondoren ere** indarrean
+  jarraitzen duela.
+
+[Deskargatu konfidentzialtasun-akordioa (DOCX/PDF)](/zik/templates/#konfidentzialtasun-akordioa)
+
+### 6. Definitu rolak RACI matrizearekin (hautazkoa)
 
 RACI matrizeak argitzen du nork zer egiten duen. Bereziki erabilgarria da
 hainbat pertsonak parte hartzen dutenean.
 
 [Deskargatu RACI matrizea (DOCX/PDF)](/zik/templates/#raci-matrizea)
 
-### 6. Berrikusi urtero (ISO 27001 9. klausula)
+### 7. Berrikusi urtero (ISO 27001 9. klausula)
 
 Urtean behin, zuzendaritzak 20 minutuko bilera bat egingo du:
 zer aurreratu den, zer intzidentzia gertatu den, eta hurrengo urterako
@@ -105,6 +123,8 @@ hori eskatuko du ISO 27001 ziurtapenerako.
 - [ ] Zuzendaritzak politika sinatu du
 - [ ] Kontaktuen zerrenda sortu eta eskuragarri jarri dut
 - [ ] Langileei jakinarazi diet nor den arduraduna eta non dagoen politika
+- [ ] Konfidentzialtasun-akordioak sinatu ditut (langileak, kolaboratzaileak, hornitzaileak)
+- [ ] Akordio sinatu guztien kopia gordetzen ari naiz
 - [ ] Zuzendaritzaren urteroko berrikuspena programatuta dago
 
 ---
@@ -115,6 +135,7 @@ hori eskatuko du ISO 27001 ziurtapenerako.
 |-----------|-------|-------------|
 | NIST CSF 2.0 | GV.OC, GV.RR, GV.PO, GV.OV | Organizational context, roles, policy, oversight |
 | ISO 27001:2022 | 5.1, 5.2, 5.3, 9.1, 9.2, 9.3 | Lidergoa, politika, rolak, monitorizazioa, barne-auditoretza, berrikuspena |
+| ISO 27001:2022 | A.5.10, A.5.11, A.6.1, A.6.2, A.6.5 | Informazioaren erabilera onargarria, aktiboen itzulketa, langileen hautaketa, enplegu-baldintzak, lan-harremanaren osteko betebeharrak |
 | ENS | 12., 13. art. | Segurtasun-politika, arduraduna |
 | NIS2 | 20. art. | Zuzendaritzaren erantzukizuna |
 | RGPD | 37. art. | DPD izendapena (datu pertsonaletarako) |

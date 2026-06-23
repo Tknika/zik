@@ -83,7 +83,24 @@ erabil ditzakezu:
 [Arriskuen analisia (Margerit)](/zik/templates/#arriskuen-analisia)  
 [Mehatxuen katalogoa (CCN-CERT)](/zik/templates/#mehatxuen-katalogoa)
 
-### 5. Erabaki zer egin arrisku bakoitzarekin (ISO 27001 8.3)
+### 5. Identifikatu hornitzaile eta hirugarrenak (ISO 27001 A.5.19–A.5.22)
+
+Kanpoko hornitzaile eta zerbitzuek zure datuetarako sarbidea dute:
+
+- **Hodeiko zerbitzuak**: Office 365, Google Workspace, Moodle Cloud, Dropbox…
+- **Software-hornitzaileak**: Odoo, kudeaketa-aplikazioak, nominen softwarea…
+- **IT zerbitzuak**: mantentze-lanak, hosting-a, babeskopien hornitzaileak…
+- **Aholkulariak eta kanpoko kolaboratzaileak**: edonork datuetarako sarbidea badu.
+
+Hornitzaile bakoitzarentzat:
+- Identifikatu **zer datutara** duen sarbidea.
+- Ziurtatu **konfidentzialtasun-akordio** bat sinatu duela.
+- Egiaztatu **RGPD tratamendu-kontratu** bat (DPA) dagoela sinatuta.
+- Baloratu haien **zibersegurtasun-maila** (ziurtagiriak, ISO 27001, ENS…).
+
+[Deskargatu hornitzaileen ebaluazioa (DOCX/PDF)](/zik/templates/#hornitzaileen-ebaluazioa)
+
+### 6. Erabaki zer egin arrisku bakoitzarekin (ISO 27001 8.3)
 
 Arrisku bakoitzarentzat lau aukera daude: **murriztu** (kontrol bat ezarri),
 **onartu** (arriskua txikia bada), **transferitu** (aseguru bidez), edo
@@ -98,6 +115,10 @@ Arrisku bakoitzarentzat lau aukera daude: **murriztu** (kontrol bat ezarri),
 - [ ] Aktiboen zerrenda egin dut
 - [ ] Datu sentikorrak non dauden identifikatu dut
 - [ ] Arriskuen zerrenda bete dut (3-5 arrisku)
+- [ ] Hornitzaile eta hirugarrenen zerrenda egin dut
+- [ ] Hornitzaile bakoitzak zer datutara sarbidea duen identifikatu dut
+- [ ] Hornitzaile guztiek konfidentzialtasun-akordioa sinatu dute
+- [ ] DPA/RGPD tratamendu-kontratua sinatuta (datuak tratatzen dituztenentzat)
 - [ ] Arrisku bakoitzak tratamendu-erabaki bat dauka (murriztu/onartu/transferitu/saihestu)
 
 ---
@@ -107,6 +128,6 @@ Arrisku bakoitzarentzat lau aukera daude: **murriztu** (kontrol bat ezarri),
 | Estandarra | Atala | Deskribapena |
 |-----------|-------|-------------|
 | NIST CSF 2.0 | ID.AM, ID.RA | Asset management, risk assessment |
-| ISO 27001:2022 | A.5.9, A.5.10, A.5.12, 8.2, 8.3 | Aktiboen inbentarioa, erabilera, sailkapena, arrisku-ebaluazioa, arrisku-tratamendua |
+| ISO 27001:2022 | A.5.9, A.5.10, A.5.12, A.5.19–A.5.22, 8.2, 8.3 | Aktiboen inbentarioa, erabilera, sailkapena, hornitzaileen kudeaketa, arrisku-ebaluazioa, arrisku-tratamendua |
 | ENS | 13., 14. art. | Arduraduna, arriskuen analisia |
 | RGPD | 30. art. | Tratamendu-jardueren erregistroa |
