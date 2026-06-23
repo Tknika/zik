@@ -548,9 +548,10 @@ aside.right-sidebar h2 {
 .sl-markdown-content a {
   color: var(--zik-ink);
   text-decoration: underline;
-  text-underline-offset: 3px;
+  text-underline-offset: 4px;
   text-decoration-thickness: 1px;
   text-decoration-color: var(--zik-border);
+  transition: text-decoration-color 0.15s ease;
 }
 
 .sl-markdown-content a:hover {
@@ -743,6 +744,24 @@ aside.right-sidebar h2 {
   font-size: 0.8em;
   border-radius: var(--zik-radius-sm);
   padding: 0.1em 0.4em;
+}
+
+/* ══════════════════════════════════════════ */
+/*  PARAGRAPH SPACING — airy, editorial       */
+/* ══════════════════════════════════════════ */
+
+.sl-markdown-content p {
+  margin-bottom: 1.25rem;
+}
+
+.sl-markdown-content ul,
+.sl-markdown-content ol {
+  margin-bottom: 1.25rem;
+}
+
+.sl-markdown-content ul li,
+.sl-markdown-content ol li {
+  margin-bottom: 0.375rem;
 }
 
 /* ══════════════════════════════════════════ */
