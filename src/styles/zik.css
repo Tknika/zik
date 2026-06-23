@@ -153,7 +153,7 @@ div.sidebar-content a[href] {
 
 nav.sidebar a[href]:hover,
 div.sidebar-content a[href]:hover {
-  color: var(--zik-accent-hover);
+  color: var(--zik-ink);
   background-color: var(--zik-paper-hover);
 }
 
@@ -542,40 +542,32 @@ aside.right-sidebar h2 {
 }
 
 /* ══════════════════════════════════════════ */
-/*  LINKS — Warm accent, visible underline     */
+/*  LINKS — Black, underlined (Claude Docs    */
+/*  style). Underline visible by default,      */
+/*  stronger on hover.                          */
 /* ══════════════════════════════════════════ */
 
 .sl-markdown-content a {
-  color: var(--zik-accent);
+  color: var(--zik-ink);
   text-decoration: underline;
   text-underline-offset: 4px;
-  text-decoration-thickness: 1.5px;
-  text-decoration-color: color-mix(in srgb, var(--zik-accent) 35%, transparent);
-  transition: text-decoration-color 0.15s ease;
+  text-decoration-thickness: 1px;
+  text-decoration-color: color-mix(in srgb, var(--zik-ink) 30%, transparent);
+  transition: text-decoration-color 0.15s ease, text-decoration-thickness 0.15s ease;
 }
 
 .sl-markdown-content a:hover {
-  color: var(--zik-accent-hover);
-  text-decoration-color: var(--zik-accent);
+  text-decoration-color: var(--zik-ink);
   text-decoration-thickness: 2px;
 }
 
-.sl-markdown-content a:visited {
-  color: #8b5a3a;
-}
-
 :root[data-theme="dark"] .sl-markdown-content a {
-  color: #e8986a;
-  text-decoration-color: rgba(232, 152, 106, 0.35);
+  color: var(--zik-ink-on-dark);
+  text-decoration-color: rgba(245, 245, 245, 0.3);
 }
 
 :root[data-theme="dark"] .sl-markdown-content a:hover {
-  color: #f0b090;
-  text-decoration-color: #e8986a;
-}
-
-:root[data-theme="dark"] .sl-markdown-content a:visited {
-  color: #c08060;
+  text-decoration-color: var(--zik-ink-on-dark);
 }
 
 /* ══════════════════════════════════════════ */
@@ -700,11 +692,11 @@ aside.right-sidebar h2 {
 }
 
 .sl-markdown-content tbody td a {
-  color: var(--zik-accent);
+  color: var(--zik-ink);
 }
 
 :root[data-theme="dark"] .sl-markdown-content tbody td a {
-  color: #e8986a;
+  color: var(--zik-ink-on-dark);
 }
 
 .sl-markdown-content tbody tr:last-child td {
