@@ -22,7 +22,8 @@
   </p>
 </div>
 
-<script>
+<script is:inline>
+  document.addEventListener('DOMContentLoaded', function() {
   // ── Checkbox persistence ──
   const key = 'zik-checkboxes-' + window.location.pathname;
   const saved = JSON.parse(localStorage.getItem(key) || '{}');
@@ -67,9 +68,21 @@
     }
   }
 
-  // Inject progress bar into sidebar content
+  // Inject development warning + progress bar into sidebar content
   const sidebarContent = document.querySelector('.sidebar-content');
   if (sidebarContent && !document.getElementById('zik-progress')) {
+    // Development warning
+    const warning = document.createElement('div');
+    warning.className = 'zik-dev-warning';
+    warning.innerHTML = `
+      <svg class="zik-dev-warning-icon" width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true">
+        <path d="M12 16a1 1 0 1 0 0 2 1 1 0 0 0 0-2Zm10.67 1.47-8.05-14a3 3 0 0 0-5.24 0l-8 14A3 3 0 0 0 3.94 22h16.12a3 3 0 0 0 2.61-4.53Zm-1.73 2a1 1 0 0 1-.88.51H3.94a1 1 0 0 1-.88-.51 1 1 0 0 1 0-1l8-14a1 1 0 0 1 1.78 0l8.05 14a1 1 0 0 1 .05 1.02v-.02ZM12 8a1 1 0 0 0-1 1v4a1 1 0 0 0 2 0V9a1 1 0 0 0-1-1Z"/>
+      </svg>
+      <p class="zik-dev-warning-text">Eduki hau garapen fasean dago eta baliteke akatsak izatea.</p>
+    `;
+    sidebarContent.appendChild(warning);
+
+    // Progress bar
     const el = document.createElement('div');
     el.id = 'zik-progress';
     el.className = 'zik-progress';
@@ -83,6 +96,7 @@
   }
 
   updateGlobalProgress();
+  });
 </script>
 
 <style>

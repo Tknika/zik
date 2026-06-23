@@ -893,6 +893,41 @@ aside.right-sidebar h2 {
 }
 
 /* ══════════════════════════════════════════ */
+/*  SIDEBAR DEV WARNING                       */
+/* ══════════════════════════════════════════ */
+
+.zik-dev-warning {
+  margin: 0.5rem 1rem 0;
+  padding: 0.75rem;
+  background: var(--zik-accent-pale);
+  border: 1px solid var(--zik-accent);
+  border-radius: var(--zik-radius-md);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+  font-size: 0.75rem;
+  color: var(--zik-ink-secondary);
+  line-height: 1.4;
+}
+
+.zik-dev-warning-icon {
+  width: 1rem;
+  height: 1rem;
+  flex-shrink: 0;
+  margin-top: 0.125rem;
+  color: var(--zik-accent);
+}
+
+.zik-dev-warning-text {
+  margin: 0;
+}
+
+:root[data-theme="dark"] .zik-dev-warning {
+  background: var(--zik-accent-pale);
+  filter: brightness(0.7);
+}
+
+/* ══════════════════════════════════════════ */
 /*  PROGRESS BAR — sidebar compliance         */
 /* ══════════════════════════════════════════ */
 

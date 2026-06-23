@@ -3,6 +3,11 @@ title: Zik
 description: Zibersegurtasun-gida praktikoa Lanbide Heziketako ikastetxeentzat, NIST CSF 2.0 egituran oinarritua eta ISO 27001eko eskakizun nagusiak betetzen dituena
 ---
 
+:::caution[Garapen fasean]
+Eduki hau garapen fasean dago eta baliteke adierazpen okerrak edo osatugabeak izatea.
+Ez erabili erreferentzia gisa behin betiko bertsioa argitaratu arte.
+:::
+
 <p class="zik-subtitle">Zibersegurtasuna Ikastetxeetan — gida praktikoa</p>
 
 **Lanbide Heziketan zibersegurtasuna txertatzeko bideorria.**
