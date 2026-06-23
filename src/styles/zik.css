@@ -550,7 +550,7 @@ aside.right-sidebar h2 {
 .sl-markdown-content a {
   color: var(--zik-ink);
   text-decoration: underline;
-  text-underline-offset: 2px;
+  text-underline-offset: 3px;
   text-decoration-thickness: 1px;
   text-decoration-color: var(--zik-ink);
   transition: text-decoration-thickness 0.15s ease;
