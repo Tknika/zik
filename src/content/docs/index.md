@@ -39,14 +39,6 @@ integratutako klausula eta Annex A kontrolen estaldura-maila ikusteko.
 
 ---
 
-## Hasi hemen
-
-<a href="./gobernantza/" class="zik-start-button">Hasi orain &rarr;</a>
-
-Sei atal, lehenengotik hasita. Ez duzu ezer jakin behar aldez aurretik.
-
----
-
 ## Sei atalak (NIST CSF 2.0)
 
 ![NIST CSF 2.0 gurpila — sei funtzio: Gobernatu, Identifikatu, Babestu, Detektatu, Erantzun, Berreskuratu](/zik/csf-wheel.png)
@@ -69,9 +61,16 @@ ziklo baten moduan. Gobernantza erdian dago, beste bostak inguruan.*
 
 | Profila | Zergatik da zuretzat? |
 |---------|----------------------|
-| **Zuzendaritza kideak** | Lege-betekizunak (RGPD, ENS, NIS2) betetzen laguntzen dizu, egindakoaren froga dokumentalarekin |
-| **Azpiegitura digitalen arduradunak** | Antolakuntzatik teknikora, pausoz pauso, praktikan oinarrituta |
-| **Irakasleak eta langileak** | Jakin zer egin zure egunerokoan datuak babesteko eta intzidentzia baten aurrean |
+| **Zuzendaritza kideak** | Lege-betekizunak (RGPD, ENS, NIS2) betetzen laguntzeko, egindakoaren froga dokumentalarekin |
+| **Azpiegitura digitalen arduradunak** | Antolakuntzatik teknikora, pausoz pauso eta praktikan oinarrituta |
+| **Irakasleak eta langileak** | Nola babestu norbere datuak eta zer egin intzidentzia baten aurrean |
 
 ---
 
+## Hasi hemen
+
+<a href="./gobernantza/" class="zik-start-button">Hasi orain &rarr;</a>
+
+Hasi sei alatak aztertzen.
+
+---

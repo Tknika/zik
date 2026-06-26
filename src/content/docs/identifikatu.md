@@ -24,8 +24,8 @@ Ez duzuna ezagutzen ezin duzu babestu. Atal honetan zure ikastetxearen
 
 ## Zergatik da garrantzitsua?
 
-- Ez badira aktiboak behar bezala identifikatzen, ezagutzen ez ditugun erabiltzaile, gailu, aplikazio, etab. arrisku bihurtu daitezke
-- Erasorik jasaten badugu, erantzun azkarra eta eraginkorra izateko ezinbestekoa
+- **Aktiboak behar bezala identifikatzen ez badira**, ezagutzen ez ditugun erabiltzaile, gailu, aplikazio eta abar arrisku bihurtu daitezke.
+- **Erasorik jasaten badugu**, erantzun azkarra eta eraginkorra izateko ezinbestekoa da aldez aurretik aktiboak eta arriskuak identifikatuta izatea.
 
 ---
 
@@ -40,7 +40,9 @@ dira. Idatzi gutxienez:
 - **Ordenagailuak**: zenbat? Irakasleentzat eta ikasleentzat.
 - **Sare-gailuak**: routerrak, switch-ak, WiFi sarbide-puntuak.
 - **Inprimagailuak**: sarera konektatuta badaude.
-- **Hodeiko zerbitzuak**: Office 365, Google Workspace, Moodle, Dropbox…
+- **Hodeiko zerbitzuak**: Office 365, Google Workspace, Moodle, Dropbox... 
+
+Zerrenda honek zure ikastetxeko aktibo digitalen ikuspegi orokorra izaten lagunduko dizu.
 
 #### Tresna erabilgarriak
 
@@ -59,17 +61,16 @@ laguntzen dute.
 
 ### 2. Identifikatu datu sentikorrak
 
-Pentsatu non dauden datu sentikorrak:
+Datu sentikorrak non erabiltzen diren aztertu:
 
-- Ikasleen espedienteak (matrikulazioa, notak, datu medikoak…)
+- Ikasleen espedienteak (matrikulazioa, kalifikazioak, datu medikoak…)
 - Langileen datuak (nominak, kontratuak…)
 - Kontabilitatea eta kudeaketa ekonomikoa (adibidez, Odoo-n)
 - Pasahitzak eta sarbide-datuak
 
 ### 3. Identifikatu arrisku nagusiak
 
-Ez duzu analisi formalik egin behar. Bete **arriskuen zerrenda**
-— identifikatu 3-5 arrisku eta parekatu arintze-neurri sinpleekin:
+Bete **arriskuen zerrenda** (ez da analisi formalik egin beharrik). Identifikatu 3-5 arrisku eta eman arintze-neurri sinpleak bakoitzarentzat:
 
 [Deskargatu arriskuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#arriskuen-zerrenda)
 
@@ -94,16 +95,20 @@ Kanpoko hornitzaile eta zerbitzuek zure datuetarako sarbidea dute:
 Hornitzaile bakoitzarentzat:
 - Identifikatu **zer datutara** duen sarbidea.
 - Ziurtatu **konfidentzialtasun-akordio** bat sinatu duela.
-- Egiaztatu **RGPD tratamendu-kontratu** bat (DPA) dagoela sinatuta.
+- Egiaztatu **DBEO (RGPD) tratamendu-kontratu** bat (DPA) dagoela sinatuta.
 - Baloratu haien **zibersegurtasun-maila** (ziurtagiriak, ISO 27001, ENS…).
 
 [Deskargatu hornitzaileen ebaluazioa (DOCX/PDF)](/zik/templates/#hornitzaileen-ebaluazioa)
 
 ### 6. Erabaki zer egin arrisku bakoitzarekin (ISO 27001 8.3)
 
-Arrisku bakoitzarentzat lau aukera daude: **murriztu** (kontrol bat ezarri),
-**onartu** (arriskua txikia bada), **transferitu** (aseguru bidez), edo
-**saihestu** (jarduera uztea). Erabakia idatziz jaso eta izendatu arduradun bat.
+Arrisku bakoitzarentzat lau aukera daude: 
+- **Murriztu** (kontrol bat ezarri)
+- **Onartu** (arriskua txikia bada) 
+- **Transferitu** (aseguru bidez)
+- **Saihestu** (jarduera uztea)
+
+Erabakia idatziz jaso eta izendatu arduradun bat.
 
 [Deskargatu arrisku-tratamendu plana (DOCX/PDF)](/zik/templates/#arrisku-tratamendu-plana)
 

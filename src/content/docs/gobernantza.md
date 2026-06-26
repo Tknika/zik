@@ -19,18 +19,17 @@ compliance:
   annexA_pct: 27
 ---
 
-Gobernantza da zibersegurtasunaren **oinarria**. Hemen erabakitzen da
-nor arduratzen den, zein araurekin, eta nola antolatzen den ikastetxea.
+Gobernantza da zibersegurtasunaren **oinarria**. Bertan zehazten dira arduradunak, jarraitu beharreko arauak eta ikastetxearen antolaketa orokorra.
 
-Helburua ez da perfekzioa. **Egitea da.** Gero hobetuko duzu.
+Helburua ez da perfekzioa. **Ekitea eta martxan jartzea** da gakoa. Ondoren, beti izango da aukera hobekuntzak egiteko.
 
 ---
 
 ## Zergatik da garrantzitsua?
 
 - **Legeak eskatzen du** (ENS: 12., 13. art.; RGPD; NIS2: 20. art.).
-- Datu-urraketa bat gertatuz gero, **frogatu beharko duzu** neurriak
-  hartu zenituela. Hutsunerik handiena izendapen formalik eza da.
+- Datu-urraketa bat gertatzen denean, aurretik neurri egokiak hartu direla **frogatu behar delako**.
+- Sarritan, izendapen formalik egin ez izana izaten da hutsune nagusia.
 
 ---
 
@@ -38,9 +37,7 @@ Helburua ez da perfekzioa. **Egitea da.** Gero hobetuko duzu.
 
 ### 1. Izendatu zibersegurtasun-arduraduna
 
-Zure ikastetxeak **pertsona bat** behar du, izendapen formalarekin,
-zibersegurtasunaz arduratzeko. Ezin du "denon ardura" izan,
-inorena ez delako.
+Ikastetxeak, zibersegurtasunaz arduratuko den **pertsona bat izendatu** behar du (izendapen formalarekin). Ezin da "denon ardura" izan, azkenean inorena ez delako.
 
 - Idatzi izendapena (txantiloia behean).
 - Zehaztu bere egitekoak.
@@ -50,68 +47,76 @@ inorena ez delako.
 
 ### 2. Idatzi segurtasun-politika
 
-Ikastetxearen segurtasun-politikak azaltzen du **nola babesten diren
-datuak eta sistemak**. Orrialde bakarreko dokumentua, langile guztiek
-irakurri eta bete beharrekoa.
+Ikastetxearen segurtasun-politikak datuak eta sistemak nola babesten diren azaltzen du. Dokumentu labur eta zehatza izan behar du, orrialde bakarrekoa, langile guztiek erraz irakurri eta bete dezaten.
 
-Politikak gutxienez jaso behar du:
-- Nor den arduraduna.
-- Oinarrizko arauak (pasahitzak, datuak, gailuak, posta, intzidentzien
-  jakinarazpena).
-- Nori jakinarazi intzidentzia bat.
+Politikak, gutxienez, honako hauek jaso behar ditu:
+- Nor den **arduraduna**.
+- Oinarrizko segurtasun-arauak (pasahitzak, datuak, gailuak, posta, ...).
+- Nori eta nola jakinarazi **intzidentziak**.
 
-Zuzendaritzak sinatu behar du.
+Zuzendaritzak **sinatu** behar du.
 
 [Deskargatu politika-txantiloia (DOCX/PDF)](/zik/templates/#segurtasun-politika)
 
 ### 3. Sortu kontaktuen zerrenda
 
-Idatzi barne- eta kanpo-kontaktuen zerrenda, intzidentzia bat gertatuz gero
-nori deitu jakiteko. Jarri ikusgai eta partekatu posta elektronikoz.
+Idatzi **barne- eta kanpo-kontaktuen zerrenda**, intzidentzia bat gertatuz gero
+nori deitu jakiteko. Zerrenda horretan, zehaztu nor diren kontaktu garrantzitsuak, hala nola zibersegurtasunaren arduraduna, IT teknikaria, zuzendaritza-taldea eta kanpoko hornitzaileak edo aholkulariak.
+
+Jarri zerrenda ikusgai ikastetxeko langile guztientzat, eta partekatu posta elektronikoz, denek izan dezaten eskura. 
 
 [Deskargatu kontaktuen zerrenda-txantiloia (DOCX/PDF)](/zik/templates/#kontaktuen-zerrenda)
 
 ### 4. Sortu segurtasun-batzordea (hautazkoa, baina gomendatua)
 
-Hiru hilean behin 20 minutuko bilera. Parte-hartzaileak:
-- Zuzendaritza (erabakiak hartzeko ahalmena)
+Noizean behin, bilera laburrak antolatu, zibersegurtasunaren inguruko gaiak aztertzeko. Bilera horietan, honako hauek parte hartu beharko lukete:
+- Zuzendaritza (erabakiak hartzeko ahalmena duena)
 - Zibersegurtasun-arduraduna
 - IT arduraduna
 
-Bileren gai-zerrenda finkoa: azken aldiko intzidentziak, egindakoa,
-hurrengo urratsak.
+Bileren gai-zerrenda malgua izan daiteke, baina honako puntu hauek jorra daitezke:
+
+- Azken aldiko intzidentziak: gertatu diren intzidentzien berri eman eta horien inguruko informazioa partekatu.
+- Egindakoa: orain arte hartutako neurrien eta egindako lanaren berri eman.
+- Hurrengo urratsak: etorkizunean egin beharrekoak zehaztu eta planifikatu.
 
 ### 5. Sinatu konfidentzialtasun-akordioak (ISO 27001 A.6.2, A.5.10)
 
-RGPDk eta ISO 27001ek eskatzen dute datu pertsonaletara edo informazio
-konfidentzialera sarbidea duen edonork konfidentzialtasun-konpromisoa
-sinatzea (langileak, kontratistak, praktiketako ikasleak, hornitzaileak…).
+**RGPDk eta ISO 27001ek** ezartzen dutenaren arabera, **datu pertsonaletara edo informazio konfidentzialera sarbidea duen edonork** konfidentzialtasun-konpromisoa sinatu behar du (langileak, kontratistak, praktiketako ikasleak, hornitzaileak…).
 
-Akordioak jasotzen du:
-- Zer den informazio konfidentziala (ikasleen datuak, pasahitzak,
-  informazio ekonomikoa, teknikoa…).
-- Ez zabaltzeko, ez pilatzeko eta datuak babesteko konpromisoa.
-- Intzidentziak berehala jakinarazteko betebeharra.
-- Gailuak itzultzeko eta datuak ezabatzeko betebeharra lan-harremana
-  amaitzean.
-- Konfidentzialtasunak **lan-harremana amaitu ondoren ere** indarrean
-  jarraitzen duela.
+Konfidentzialtasun-akordioak honako hauek jasotzen ditu:
+- **Informazio konfidentzialaren definizioa**: ikasleen datuak, pasahitzak, informazio ekonomikoa, teknikoa eta beste edozein informazio sentikor barne.
+- **Konfidentzialtasun-konpromisoa**: informazioa ez zabaltzeko, ez pilatzeko eta datuak babesteko konpromisoa hartzen da.
+- **Intzidentzien jakinarazpena**: edozein intzidentzia edo segurtasun-arrisku berehala jakinarazteko betebeharra ezartzen da.
+- **Gailuen itzulera eta datuen ezabaketa**: lan-harremana amaitzean, gailuak itzultzeko eta datuak ezabatzeko betebeharra zehazten da.
+- **Konfidentzialtasunaren iraupena**: argi adierazten da konfidentzialtasun-konpromisoak lan-harremana amaitu ondoren ere indarrean jarraitzen duela.
 
 [Deskargatu konfidentzialtasun-akordioa (DOCX/PDF)](/zik/templates/#konfidentzialtasun-akordioa)
 
 ### 6. Definitu rolak RACI matrizearekin (hautazkoa)
 
-RACI matrizeak argitzen du nork zer egiten duen. Bereziki erabilgarria da
-hainbat pertsonak parte hartzen dutenean.
+RACI matrizea ardurak eta erantzukizunak argitzeko erabiltzen da, batez ere hainbat pertsonak parte hartzen duten proiektu edo zereginetan.
+
+RACI matrizeak lau rol zehazten ditu:
+
+R (Responsable): Arduraduna, emaitzaren erantzule nagusia.
+A (Accountable): Kontuak ematen dituena, arduradunari laguntzen diona.
+C (Consulted): Kontsultatua, iritzia edo aholkua ematen duena.
+I (Informed): Informatua, emaitzaren berri jasotzen duena.
+
+Matrize honen bidez, argi geratzen da nork zer egiten duen eta nor den erantzule bakoitzaren aurrean.
 
 [Deskargatu RACI matrizea (DOCX/PDF)](/zik/templates/#raci-matrizea)
 
 ### 7. Berrikusi urtero (ISO 27001 9. klausula)
 
-Urtean behin, zuzendaritzak 20 minutuko bilera bat egingo du:
-zer aurreratu den, zer intzidentzia gertatu den, eta hurrengo urterako
-helburuak finkatzeko. Idatzi emaitza eta gorde — kanpo-auditoreak
-hori eskatuko du ISO 27001 ziurtapenerako.
+Urtean behin, zuzendaritzak bilera bat egingo du zibersegurtasunaren inguruko gaiak aztertzeko. Bilera horretan, honako hauek jorratuko dira:
+
+- **Aurrerapenak**: urtean zehar egin diren aurrerapenak eta hobekuntzak aztertuko dira.
+- **Intzidentziak**: urtean zehar gertatu diren intzidentzia eta gorabeherak aztertuko dira, eta horien arrazoiak eta konponbideak eztabaidatuko dira.
+- **Hurrengo urterako helburuak**: hurrengo urtean lortu nahi diren helburuak finkatuko dira.
+
+Bilera horren emaitza idatziz jasoko da, eta dokumentua gordetzea komeni da. ISO 27001 ziurtapena jaso nahi bada dokumentu hori aurkeztu beharko da.
 
 ---
 

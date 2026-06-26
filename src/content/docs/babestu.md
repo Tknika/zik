@@ -19,17 +19,15 @@ compliance:
   annexA_pct: 44
 ---
 
-Segurtasun-politika idatzi duzu (Gobernantza). Orain **teknikoki babestu**
-behar dituzu sistemak: pasahitzak, eguneratzeak, babeskopiak, sarbideen
-kudeaketa, eta sarearen segmentazioa.
+Segurtasun-politika idatzi duzu (Gobernantza), eta kudeatzen dituzun sistemak identifikatu dituzu. Orain sistema horiek **teknikoki babestu**
+behar dituzu: pasahitzak, eguneratzeak, babeskopiak, sarbideen
+kudeaketa, sarearen segmentazioa...
 
 ---
 
 ## Zergatik da garrantzitsua?
 
-- Segurtasun-intzidentzia gehienak **oinarrizko neurriak falta direlako**
-  gertatzen dira: lehenetsitako pasahitzak, eguneratu gabeko softwarea,
-  babeskopiarik eza.
+Segurtasun-intzidentzia gehienak **oinarrizko neurriak ez hartzeagatik**   gertatzen dira: lehenetsitako pasahitzak erabiltzea, eguneratu gabeko softwarea izatea, babeskopiarik ez egitea...
 
 ---
 
@@ -37,15 +35,15 @@ kudeaketa, eta sarearen segmentazioa.
 
 ### 1. Pasahitzak
 
-Segurtasun-politikan (Gobernantza atala) definitu dituzu pasahitzen
-arauak. Orain betearazi:
+Segurtasun-politikan (Gobernantza atalean) definitu dituzu pasahitzen
+arauak. Aplikatzeko garaia iritsi da:
 
 - Erabili **pasahitz luzeak** (gutxienez 12 karaktere).
 - Ez erabili pasahitz bera leku guztietan. Pasahitzen kudeatzaile bat
   erabiltzea gomendatzen da:
-  - **[KeePassXC](https://keepassxc.org/)** — Lokala, doakoa. Pasahitzak
+  - **[KeePassXC](https://keepassxc.org/)**: Lokala, doakoa. Pasahitzak
     fitxategi batean gordetzen ditu. Talde txikientzat egokia.
-  - **[Passbolt](https://www.passbolt.com/)** — Sarean, taldeentzat diseinatua.
+  - **[Passbolt](https://www.passbolt.com/)**: Sarean, taldeentzat diseinatua.
     Pasahitzak partekatzeko eta baimenak kudeatzeko aukera ematen du.
     Doako komunitate-edizioa dauka.
 - **Aldatu lehenetsitako pasahitz guztiak** (routerrarena, WiFi-arena,
@@ -54,17 +52,20 @@ arauak. Orain betearazi:
 ### 2. Eguneratzeak eta segmentazioa
 
 - Aktibatu **eguneratze automatikoak** sistema eragilean (Windows, Linux, Mac).
-- Eguneratu **nabigatzaileak** — automatikoki egiten da normalean.
+- Eguneratu **nabigatzaileak** (automatikoki egiten da normalean).
 - Eguneratu **aplikazio kritikoak**: bulegotika, Moodle, Odoo.
-- **Segmentatu sarea**: ikastetxeko sarea gutxienez bi VLANetan banatu:
-  irakasleak eta kudeaketa (sarbide osoa) vs. ikasleak eta bisitariak
-  (Interneterako sarbidea soilik). Horrela, ikasleen sarean gertatutako
-  intzidente batek ez die kudeaketa-sistemei eragingo.
+- **Segmentatu sarea**: ikastetxeko sarea segumentuetan banatu, besteak beste:
+
+![Lanbide Heziketako ikastetxe batek izan behar dituen VLAN sareen zerrenda](/zik/vlan.jpg)
+
+Horrela, adibidez, ikasleen sarean gertatutako intzidente batek ez die kudeaketa-sistemei eragingo.
+
+(Informazio hau [Ikastetxeen oinarrizko segurtasun betebeharretan jasota dago](https://fpikaskuntzagunea.hezkuntza.net/pluginfile.php/47065/mod_page/content/16/fp-oinarrizko-segurtasuna-20250903.pdf))
+
 
 ### 3. Sarbideen kudeaketa (ISO 27001 A.5.15, A.5.18, A.8.2, A.8.3)
 
-Segurtasun-politikan (Gobernantza) pasahitzen arauak definitu dituzu.
-Orain **sarbideen kudeaketa osoa** ezarri behar duzu:
+Segurtasun-politikan (Gobernantza) definitutako **sarbideen kudeaketa** aplikatu:
 
 - **Definitu rolak eta sarbide-mailak**: nork atzi dezakeen zer
   (zuzendaritza, IT, administrariak, irakasleak, ikasleak, bisitariak).
@@ -72,22 +73,17 @@ Orain **sarbideen kudeaketa osoa** ezarri behar duzu:
   behar duen gutxieneko sarbidea soilik.
 - **Kudeatu administratzaile-kontuak**: zenbat eta gutxiago, hobeto.
   MFA nahitaezkoa administratzaileentzat eta VPN sarbidea dutenentzat.
-- **Berrikusi sarbideak aldiro**: hiru hilean behin, egiaztatu baja-egoeran
-  dauden konturik ez dagoela eta pribilegioak beharrezkoak direla.
+- **Berrikusi sarbideak aldiro**: hiru hilean behin, egiaztatu baja eman beharreko konturik ez dagoela eta erabiltzaile guztiek behar dituzten baimenak soilik dituztela.
 - **Idatzi sarbide-politika**: dokumentu bakarrean jaso rolak, prozedurak
   (altak, bajak, aldaketak) eta berrikuspen-periodikotasuna.
-- **Eraman erregistroa**: ISO 27001ek eskatzen du erabiltzaileen kudeaketa
-  (altak, bajak, aldaketak, salbuespenak, berrikuspenak) idatziz
-  dokumentatzea. Ikasturte hasieran alta masiboak onartzeko atal berezia
-  du txantiloiak — ez da beharrezkoa erabiltzaile bakoitza banaka
-  erregistratzea, multzoka baizik.
+- **Erabiltzaileen kudeaketaren dokumentazioa**: ISO 27001 arauak erabiltzaileen bizi-zikloaren kudeaketa (altak, bajak, aldaketak, salbuespenak eta aldizkako berrikuspenak) idatziz dokumentatzea eskatzen du. Horretarako, erabilitako txantiloiak ikasturte hasierako alta masiboak jasotzeko atal espezifikoa du; beraz, ez da beharrezkoa erabiltzaile bakoitza banaka erregistratzea, taldeka edo multzoka dokumentatzea nahikoa da.
 
 [Deskargatu sarbide-kontrolaren politika (DOCX/PDF)](/zik/templates/#sarbide-kontrolaren-politika)
 [Deskargatu erabiltzaileen kudeaketa-erregistroa (DOCX/PDF)](/zik/templates/#erabiltzaileen-kudeaketa-erregistroa)
 
 ### 4. Babeskopien politika
 
-Ezarri babeskopia-politika idatzi bat:
+Ezarri babeskopia-politika bat (idatziz):
 
 - **Zer babesten da**? Makina birtual guztiak (Odoo, Moodle, fitxategi-zerbitzaria).
 - **Non gordetzen dira**? 3-2-1 araua betez.
