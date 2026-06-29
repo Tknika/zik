@@ -110,7 +110,7 @@ Arrisku bakoitzarentzat lau aukera daude:
 
 Erabakia idatziz jaso eta izendatu arduradun bat.
 
-[Deskargatu arrisku-tratamendu plana (DOCX/PDF)](/zik/templates/#arrisku-tratamendu-plana)
+[Deskargatu arrisku-tratamendu plana (DOCX/PDF)](/zik/templates/#arriskuen-analisia)
 
 ---
 

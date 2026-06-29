@@ -77,7 +77,7 @@ Intzidentzia baten ondoren, jaso idatziz: zer gertatu den, zergatik, eta zer
 aldatu berriro ez gertatzeko. Ekintza horiek hurrengo urterako helburu bihurtu
 eta eraman zuzendaritzaren berrikuspen-bilerara (ikus Gobernantza → 6. ataza).
 
-[Deskargatu post-mortem txantiloia (DOCX/PDF)](/zik/templates/#post-mortem-analisia)
+[Deskargatu post-mortem txantiloia (DOCX/PDF)](/zik/templates/#gertaeren-erantzun-plana)
 
 ---
 

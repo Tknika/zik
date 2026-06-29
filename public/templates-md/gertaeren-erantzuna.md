@@ -15,7 +15,7 @@ eta bertsio digitala leku seguru batean.
 | Komunikazio-arduraduna | | | |
 | DPD (Datuen Babeserako Ordezkaria) | | | |
 | Cyberzaintza (intzidentzien jakinarazpena) | — | 900 104 891 | incidencias@cyberzaintza.eus |
-| Agintzaritza | AVPD (datu-urraketen jakinarazpena) | 945 016 230 | avpd@avpd.eus |
+| Agintaritza | AVPD (datu-urraketen jakinarazpena) | 945 016 230 | avpd@avpd.eus |
 
 ## 2. Intzidentziaren detekzioa eta hasierako ebaluazioa
 
@@ -23,7 +23,7 @@ eta bertsio digitala leku seguru batean.
 
 - [ ] Langile batek
 - [ ] Antibirus / monitorizazio-sistema batek
-- [ ] Kanpoko iturri batek (hornitzailea, cyberzaintza, ...)
+- [ ] Kanpoko iturri batek (hornitzailea, Cyberzaintza, ...)
 - [ ] Beste bat: ________________
 
 ### Detekzio-data eta ordua

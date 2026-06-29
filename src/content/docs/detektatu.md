@@ -23,8 +23,7 @@ Atal honetan detekzio-geruzak modu mailakatuan planteatzen dira, premiazkoenetik
 
 ## Zergatik da garrantzitsua?
 
-- **Dwell time**: eraso bat detektatzeko batez beste 21 egun pasatzen dira.
-  Ransomware kasuetan, egun gutxi batzuetan zifratzen da dena.
+- **Dwell time**: batez beste, erasotzaileak **hilabeteak** igaro ditzake sistema batean detektatu gabe. Ransomware kasuetan, infiltrazioaren eta zifratzearen artean egun gutxi pasa daitezke.
 - **ENS 24., 25. art.**: detekzio- eta erantzun-gaitasuna eskatzen du.
 - **Firewallaren monitorizazioa**: firewall batek egunero milaka konexio-saiakera blokeatu ditzake; hala ere, erregistro horiek aztertzen ez badira, ezin da jakin erasoren bat arrakastaz gauzatzen ari den.
 

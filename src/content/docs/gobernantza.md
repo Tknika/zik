@@ -61,7 +61,7 @@ Zuzendaritzak **sinatu** behar du.
 ### 3. Sortu kontaktuen zerrenda
 
 Idatzi **barne- eta kanpo-kontaktuen zerrenda**, intzidentzia bat gertatuz gero
-nori deitu jakiteko. Zerrenda horretan, zehaztu nor diren kontaktu garrantzitsuak, hala nola zibersegurtasunaren arduraduna, IT teknikaria, zuzendaritza-taldea eta kanpoko hornitzaileak edo aholkulariak.
+nori deitu jakiteko. Zerrenda horretan, zehaztu nor diren kontaktu garrantzitsuak, hala nola zibersegurtasunaren arduraduna, Datuen Babeserako Ordezkaria (DPD), IT teknikaria, zuzendaritza-taldea eta kanpoko hornitzaileak edo aholkulariak.
 
 Jarri zerrenda ikusgai ikastetxeko langile guztientzat, eta partekatu posta elektronikoz, denek izan dezaten eskura. 
 
