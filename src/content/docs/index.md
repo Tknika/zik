@@ -71,6 +71,6 @@ ziklo baten moduan. Gobernantza erdian dago, beste bostak inguruan.*
 
 <a href="./gobernantza/" class="zik-start-button">Hasi orain &rarr;</a>
 
-Hasi sei alatak aztertzen.
+Hasi sei atalak aztertzen.
 
 ---

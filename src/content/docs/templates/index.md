@@ -38,7 +38,7 @@ Ikastetxeko langile guztientzako oinarrizko arauak, orrialde bakarrean.
 
 ### Kontaktuen zerrenda
 
-Barne- eta kanpo-kontaktuen zerrenda (Cyberzaintza, AEPD, Ertzaintza…),
+Barne- eta kanpo-kontaktuen zerrenda (Cyberzaintza, AVPD, Ertzaintza…),
 intzidentzia bat gertatuz gero nori deitu jakiteko.
 [Gida &rarr;](../gobernantza/)
 

@@ -38,7 +38,7 @@ Zibersegurtasun-arduradunaren egiteko nagusiak:
 2. **Arriskuak kudeatzea**: arriskuen analisia egitea aldizka eta
    arintze-neurriak proposatzea.
 3. **Intzidentziei erantzutea**: segurtasun-intzidentzien koordinazioa
-   eta Cyberzaintzari eta AEPDri jakinaraztea, beharrezkoa denean.
+   eta Cyberzaintzari eta AVPDri jakinaraztea, beharrezkoa denean.
 4. **Prestakuntza eta sentsibilizazioa**: langileen sentsibilizazioa
    sustatzea eta prestakuntza-saioak antolatzea.
 5. **Betekizun legalak gainbegiratzea**: RGPD, ENS, NIS2 eta aplikagarria

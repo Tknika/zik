@@ -100,7 +100,7 @@ Ez da dokumentu legal bat idatzi behar. Taula bat nahikoa da.
 Berreskurapen-fasean ere, intzidentzia jakinarazteko betebeharrak bete
 behar dituzu:
 
-- **Datu-urraketa bada**: 72 orduko epean AEPDri jakinarazi (ikus
+- **Datu-urraketa bada**: 72 orduko epean AVPDri jakinarazi (ikus
   [Erantzun](/zik/erantzun/)). Berreskurapena hasita ere, epea ez da gelditzen.
 - **Etenaldi luzea bada**: jakinarazi ikastetxeko langileei eta ikasleei
   zer gertatu den, zer zerbitzu dauden erorita eta noizko espero den

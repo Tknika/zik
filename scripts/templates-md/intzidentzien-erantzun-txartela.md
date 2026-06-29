@@ -38,7 +38,7 @@ Zerbait arraroa gertatzen bada, identifikatu intzidentzia mota:
 | Zuzendaritza — {{directorName}} | {{directorPhone}} |
 | Cyberzaintza (Euskadiko Zibersegurtasun Agentzia) | 900 104 891 |
 | LHko Sailburuordetza / Tknika | ← kontaktua hemen |
-| AEPD (datu-urraketa bada, 72h-ko epean) | 901 100 099 |
+| AVPD (datu-urraketa bada, 72h-ko epean) | 945 016 230 |
 
 > **LHko Sailburuordetza / Tknika**: jakinarazi intzidentzia
 > **larria** bada — zerbitzari bat, hainbat ordenagailu, edo
@@ -91,7 +91,7 @@ Zerbait arraroa gertatzen bada, identifikatu intzidentzia mota:
 | Zuzendaritza | Berehala | Edozein intzidentzia larri |
 | Cyberzaintza | Berehala | Intzidentzia teknikoa bada |
 | LHko Sailburuordetza / Tknika | Berehala | Zerbitzaria, hainbat ekipo, edo sarea arriskuan badaude |
-| AEPD | 72h-ko epean | Datu pertsonalen urraketa bada |
+| AVPD | 72h-ko epean | Datu pertsonalen urraketa bada |
 | Langileak | Beharrezkoa bada | Zuzendaritzak erabakitzen du |
 | Ikasleak / familiak | Beharrezkoa bada | Zuzendaritzak erabakitzen du |
 

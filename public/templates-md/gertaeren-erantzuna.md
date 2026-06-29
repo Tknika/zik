@@ -14,8 +14,8 @@ eta bertsio digitala leku seguru batean.
 | IT arduraduna | | | |
 | Komunikazio-arduraduna | | | |
 | DPD (Datuen Babeserako Ordezkaria) | | | |
-| INCIBE (intzidentzien jakinarazpena) | — | 900 876 567 | incidencias@incibe.es |
-| AEPD (datu-urraketen jakinarazpena) | — | — | sedeagpd.gob.es |
+| Cyberzaintza (intzidentzien jakinarazpena) | — | 900 104 891 | incidencias@cyberzaintza.eus |
+| Agintzaritza | AVPD (datu-urraketen jakinarazpena) | 945 016 230 | avpd@avpd.eus |
 
 ## 2. Intzidentziaren detekzioa eta hasierako ebaluazioa
 
@@ -23,7 +23,7 @@ eta bertsio digitala leku seguru batean.
 
 - [ ] Langile batek
 - [ ] Antibirus / monitorizazio-sistema batek
-- [ ] Kanpoko iturri batek (hornitzailea, INCIBE…)
+- [ ] Kanpoko iturri batek (hornitzailea, cyberzaintza, ...)
 - [ ] Beste bat: ________________
 
 ### Detekzio-data eta ordua
@@ -71,8 +71,8 @@ eta bertsio digitala leku seguru batean.
 
 ### 3.4 Jakinarazpen ofizialak
 
-- [ ] AEPD (datu-urraketa bada — 72 orduko epean)
-- [ ] INCIBE (intzidentzia teknikoa bada)
+- [ ] AVPD (datu-urraketa bada — 72 orduko epean)
+- [ ] Cyberzaintza (intzidentzia teknikoa bada)
 - [ ] Beste agintaritzak (ENS, NIS2…)
 
 ## 4. Komunikazioa

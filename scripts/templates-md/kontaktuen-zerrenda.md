@@ -31,7 +31,7 @@ harremanetan jarri beharreko pertsonak eta entitateak.
 | Entitatea | Telefonoa | Webgunea / Emaila | Oharra |
 |-----------|-----------|-------------------|--------|
 | Cyberzaintza (Euskadiko Zibersegurtasun Agentzia) | 900 104 891 | cyberzaintza@cyberzaintza.eus | Larrialdietarako telefonoa, 24/7 |
-| AEPD (datuen babesa) | 901 100 099 | [aepd.es](https://www.aepd.es) | Datu-urraketen jakinarazpena (72h) |
+| AVPD (datuen babesa) | 945 016 230 | [avpd.eus](https://www.avpd.eus/) | Datu-urraketen jakinarazpena (72h) |
 | Ertzaintza / Udaltzaingoa | {{policePhone}} | — | Delitua izanez gero |
 | IT hornitzaile kanpokoa | {{vendorName}} | {{vendorPhone}} | {{vendorEmail}} | {{vendorNote}} |
 | Zibersegurtasun-asegurua | {{insuranceName}} | {{insurancePhone}} | Baldin baduzu |
@@ -43,7 +43,7 @@ harremanetan jarri beharreko pertsonak eta entitateak.
 
 1. **Intzidentzia bat gertatuz gero**, deitu lehenik zibersegurtasun-arduradunari.
    Hura ez badago eskuragarri, deitu zuzendaritzari.
-2. **Datu pertsonalen urraketa bada**, jakinarazi AEPDri 72 orduko epean.
+2. **Datu pertsonalen urraketa bada**, jakinarazi AVPDri 72 orduko epean.
 3. **Delitua bada** (eraso informatiko bat, estortsioa…), jarri salaketa.
 
 **Ez ezabatu ezer.** Ez itzali ordenagailua — deskonektatu saretik soilik.

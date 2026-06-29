@@ -15,7 +15,7 @@ eta bertsio digitala leku seguru batean.
 | Komunikazio-arduraduna | | | |
 | DPD (Datuen Babeserako Ordezkaria) | | | |
 | Cyberzaintza (intzidentzien jakinarazpena) | — | 900 104 891 | cyberzaintza@cyberzaintza.eus |
-| AEPD (datu-urraketen jakinarazpena) | — | — | sedeagpd.gob.es |
+| Agintaritza | AVPD (datu-urraketen jakinarazpena) | 945 016 230 | avpd@avpd.eus |
 
 ## 2. Intzidentziaren detekzioa eta hasierako ebaluazioa
 
@@ -71,7 +71,7 @@ eta bertsio digitala leku seguru batean.
 
 ### 3.4 Jakinarazpen ofizialak
 
-- [ ] AEPD (datu-urraketa bada — 72 orduko epean)
+- [ ] AVPD (datu-urraketa bada — 72 orduko epean)
 - [ ] Cyberzaintza (intzidentzia teknikoa bada)
 - [ ] Beste agintaritzak (ENS, NIS2…)
 

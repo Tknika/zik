@@ -107,7 +107,7 @@ alumnado y las familias reciben información clara sobre privacidad.
 ::tip[Fuente oficial]
 [RGPD en el BOE](https://www.boe.es/doue/2016/119/L00001-00088.pdf) ·
 [LOPDGDD en el BOE](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) ·
-[AEPD — Educación](https://www.aepd.es/areas/educacion/)
+[AVPD — Hezkuntza](https://www.avpd.eus/avpd-hezkuntza/webavpd01-content/eu/)
 ::
 
 ---
@@ -181,8 +181,8 @@ implementar el ENS (INES, PILAR, MAGERIT…).
 
 - [EUR-Lex](https://eur-lex.europa.eu/) — Legislación oficial de la Unión Europea
 - [BOE](https://www.boe.es/) — Boletín Oficial del Estado
-- [AEPD](https://www.aepd.es/) — Agencia Española de Protección de Datos
+- [AVPD](https://www.avpd.eus/) — Datuak Babesteko Euskal Agintaritza
 - [CCN-CERT](https://www.ccn-cert.cni.es/) — Centro Criptológico Nacional (guías ENS)
-- [INCIBE](https://www.incibe.es/) — Instituto Nacional de Ciberseguridad
 - [Cyberzaintza](https://www.ciberseguridad.eus/) — Agencia Vasca de Ciberseguridad
+- [INCIBE](https://www.incibe.es/) — Instituto Nacional de Ciberseguridad
 - [Guía original de Tknika](https://tknika.github.io/zibersegurtasuna-ikastetxeetan/) — Guía de ciberseguridad en centros educativos

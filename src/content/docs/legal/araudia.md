@@ -103,7 +103,7 @@ pribatutasun-informazio argia jasotzen dutela.
 ::tip[Iturri ofiziala]
 [RGPD BOEn](https://www.boe.es/doue/2016/119/L00001-00088.pdf) ·
 [LOPDGDD BOEn](https://www.boe.es/buscar/act.php?id=BOE-A-2018-16673) ·
-[AEPD — Hezkuntza](https://www.aepd.es/areas/educacion/)
+[AVPD — Hezkuntza](https://www.avpd.eus/avpd-hezkuntza/webavpd01-content/eu/)
 ::
 
 ---
@@ -176,8 +176,8 @@ arduradun bat izendatu ([Gobernantza](/zik/gobernantza/)), babeskopiak bermatu
 
 - [EUR-Lex](https://eur-lex.europa.eu/) — Europar Batasuneko legegintza ofiziala
 - [BOE](https://www.boe.es/) — Espainiako Estatuko Aldizkari Ofiziala
-- [AEPD](https://www.aepd.es/) — Espainiako Datuen Babeserako Agentzia
+- [AVPD](https://www.avpd.eus/) — Datuak Babesteko Euskal Agintaritza
 - [CCN-CERT](https://www.ccn-cert.cni.es/) — Segurtasun Nazionaleko Kriptologia Zentroa (ENS gidak)
-- [INCIBE](https://www.incibe.es/) — Zibersegurtasunaren Institutu Nazionala
 - [Cyberzaintza](https://www.ciberseguridad.eus/) — Euskadiko Zibersegurtasun Agentzia
+- [INCIBE](https://www.incibe.es/) — Zibersegurtasunaren Institutu Nazionala
 - [Jatorrizko Tknika gida](https://tknika.github.io/zibersegurtasuna-ikastetxeetan/) — Zibersegurtasuna ikastetxeetan gida

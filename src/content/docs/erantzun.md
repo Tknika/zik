@@ -33,7 +33,7 @@ Intzidentzia bat gertatzen denean (ransomware eraso bat, phishing bidezko kontu-
 Intzidentzia baten aurrean, **lehen minutuetan hartzen diren erabakiek** eragin zuzena dute kaltearen tamainan eta ondorengo berreskuratze-prozesuan
 
 - **RGPD**: datu-urraketa bat gertatuz gero, 72 orduko epean jakinarazi
-  behar diozu kontrol-agintaritzari (AEPD).
+  behar diozu kontrol-agintaritzari (AVPD).
 - **ENS**: segurtasun-intzidenteak dokumentatu, kudeatu eta, dagokionean, ezarritako prozeduren arabera jakinaraztea eskatzen du.
 
 ---
@@ -52,7 +52,7 @@ Urtero gogorarazi: ikasturte hasierako klaustroan.
 Bete **intzidentzien erantzun-txartela** zure erakundearen datuekin, intzidentzia mota bakoitzean nori deitu eta zer egin argi zehaztuz:
 
 - **Kritikoa** (ransomware, datu-urraketa): Zuzendaritza + Cyberzaintza
-  (900 104 891) + LHko Sailburuordetza/Tknika + AEPD (72h).
+  (900 104 891) + LHko Sailburuordetza/Tknika + AVPD (72h).
 - **Altua** (sarbide ez-baimendua, posta-erasoa): Arduraduna + IT + Zuzendaritza.
 - **Ertaina/Baxua** (zerbitzu-etena, gailu-lapurreta): Arduraduna + IT.
 
@@ -99,4 +99,4 @@ eta eraman zuzendaritzaren berrikuspen-bilerara (ikus Gobernantza → 6. ataza).
 | NIST CSF 2.0 | RS.MA, RS.CO, RS.AN | Incident management, communication, analysis |
 | ISO 27001:2022 | A.5.24–A.5.28, 10.1, 10.2 | Intzidentzien kudeaketa, etengabeko hobekuntza, ez-adostasunak eta zuzenketa-ekintzak |
 | ENS | 25. art. | Intzidentzien jakinarazpena |
-| RGPD | 33., 34. art. | Datu-urraketen jakinarazpena AEPDri eta interesei |
+| RGPD | 33., 34. art. | Datu-urraketen jakinarazpena AVPDri eta interesei |
