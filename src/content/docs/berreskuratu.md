@@ -18,19 +18,16 @@ compliance:
 ---
 
 Intzidentzia baten ondoren **normaltasunera itzultzea** da. Babeskopietatik
-datuak eta zerbitzuak berreskuratu eta ikastetxearen funtzionamendua
+datuak eta zerbitzuak berreskuratu eta ikastetxearen funtzionamendu normala
 lehenbailehen berrezartzea.
 
-Baina lehenik, **jakin behar duzu zer den kritikoa eta zer ez**. Horretarako
-da negozio-eraginaren analisia (BIA).
+Aurretik, ordea, **zehaztu** behar da zer **zerbitzu** diren **kritikoak** eta zein ez; horretarako erabiltzen da negozio-eraginaren analisia (BIA). Berreskuratze prozesu egoki batek zerbitzu esentzialak lehenetsi behar ditu, etenaldiaren eragina minimizatzeko.
 
 ---
 
 ## Zergatik da garrantzitsua?
 
-Babeskopia bat **ez da fidagarria berreskuratzen saiatu arte**.
-Babeskopien politika idatzi duzu (Babestu atalean). Orain ziurtatu
-behar duzu benetan funtzionatzen duela.
+Babeskopia bat **ez da fidagarria berreskuratze-proba egin arte**. Babeskopien politika dagoeneko definituta dago (Babestu atalean). Orain behar bezala funtzionatzen duela egiaztatu behar da.
 
 Pentsatu:
 
@@ -44,32 +41,30 @@ Pentsatu:
 
 ### 1. Egin negozio-eraginaren analisia (BIA)
 
-Zerbitzu bakoitzarentzat erabaki **zenbat denbora egon daitekeen etenik**
-(RTO) eta **zenbat datu gal daitezkeen** (RPO) onargarria den.
+Zerbitzu bakoitzarentzat definitu behar da **zenbat denbora egon daitekeen etenik** (RTO) eta **zenbat datu gal daitezkeen** (RPO).
 
-Txantiloiak zerbitzu taula bat dauka betetzeko. Galdera sinpleak:
+Txantiloiak zerbitzu taula bat du betetzeko. Planteatzen diren galdera batzuk hauek izan daitezke:
 
 - Matrikulazio-sistema eroriko balitz, zenbat ordu itxaron dezakezu?
 - Notak galtzea onargarria al da? Zenbat atzera egin dezakezu?
 - Zer gertatuko litzateke Internet gabe astebetez? Zein da alternatiba?
 
-Ez da analisi konplexua — ikastetxe txiki batean, 15 minututan betetzen da.
+Ez da analisi konplexu bat egin behar; nahikoa da datu orokorrak ezartzea.
 
 [Deskargatu BIA txantiloia (DOCX/PDF)](/zik/templates/#bia)
 
 ### 2. Idatzi berreskurapen-prozedura
 
-Orain badakizu zer den garrantzitsuena (BIA). Idatzi nola berreskuratu.
+Garrantzitsuena zer den erabakita (BIA), hurrengo pausoa **nola berreskuratu definitzea da**.
 
 Erabili txantiloia zure ingurune birtualizaturako berreskurapen-prozedura
 definitzeko:
 
-- **Lau eszenario**: fitxategi bakarra, sistema bat, hainbat sistema,
-  hondamendia.
-- **Lehentasun-zerrenda**: BIA-n definitutako ordena erabili.
+- **Lau eszenario**: fitxategi bakarraren berreskuratzea, sistema baten leheneratzea, hainbat sistemaren berreskuratzea eta hondamendi oso baten kasua.
+- **Lehentasun-zerrenda**: BIA-n definitutako ordena jarraitu, zerbitzu kritikoen arabera lehenetsiz.
 - **Pausoz pauso**: VM-ak nola berreskuratu zure babeskopia-sistematik
   (Proxmox Backup Server, Veeam…).
-- **Arduradunak** eta **komunikazioa** berreskurapenean zehar.
+- **Arduradunak** eta **komunikazioa** berreskuratze-prozesuan zehar rolak, erantzukizunak eta barne/kanpo komunikazio-kanalak argi definitu.
 
 [Deskargatu berreskurapen-prozedura (DOCX/PDF)](/zik/templates/#berreskurapen-prozedura)
 
@@ -96,7 +91,7 @@ Erabaki:
 - Nork du sarbidea? (administrariak soilik, zuzendaritza…).
 - Noiz eta nola suntsitzen dira? (birrintzailea, ezabapen segurua).
 
-Ez duzu dokumentu legal bat idatzi behar. Taula bat nahikoa da.
+Ez da dokumentu legal bat idatzi behar. Taula bat nahikoa da.
 
 [Deskargatu espedienteen kontserbazio-politika (DOCX/PDF)](/zik/templates/#espedienteen-kontserbazio-politika)
 
