@@ -1,3 +1,4 @@
+![](Ejgv-hezkuntza.png){ width=300px } ![](logo_FP.jpg) ![](logo_tknika.png)
 # Arduradunaren izendapena — {{schoolName}}
 
 Data: {{appointmentDate}}<br>
@@ -86,4 +87,5 @@ Sinadura: ________________________ &emsp; Data: _______________
 
 ---
 
-> CC BY-SA 4.0 lizentziapean erabilgarri.
+> ![CC BY-NC-SA 4.0](/zik/ccbyncsa.jpg) Eusko Jaurlaritzaren Lanbide Heziketako Sailordetza. Lan honek Creative Commons Aitortu-EzKomertziala-PartekatuBerdin 4.0 Nazioarteko Baimena dauka (CC BY-NC-SA 4.0)
+
