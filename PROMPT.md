@@ -82,7 +82,7 @@ The official source standards and regulations have been downloaded and converted
 5. **Templates & resources library:**
    - Generated on-the-fly as DOCX and PDF via a `uv`-managed Python script (`scripts/generate_templates.py`).
    - Templates authored in Markdown, version-controlled in the repo.
-   - At minimum: RACI matrix template, risk assessment spreadsheet, threat catalog (Margerit-based), and an incident response plan skeleton.
+   - At minimum: RACI matrix template, risk assessment spreadsheet, threat catalog (Magerit-based), and an incident response plan skeleton.
 6. **Glossary** of cybersecurity and legal terms explained in plain Basque and Spanish.
 7. **Bilingual support:** Basque as root locale (`/`), Spanish under `/es/`. Starlight fallback shows Basque content when Spanish translation is pending. Custom Basque UI translation strings (i18n JSON).
 8. **Search** capability via Pagefind (Starlight built-in), with Basque UI strings configured.

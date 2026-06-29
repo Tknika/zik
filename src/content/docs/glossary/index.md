@@ -27,7 +27,7 @@ euskaraz azalduta eta gaztelaniazko baliokidearekin.
 | **ISO/IEC 27001** | ISO/IEC 27001 | Informazioaren segurtasuna kudeatzeko nazioarteko estandarra (ISMS). |
 | **ISMS (Informazioaren Segurtasuna Kudeatzeko Sistema)** | SGSI (Sistema de Gestión de Seguridad de la Información) | ISO/IEC 27001 estandarraren muina: erakunde batek bere informazioaren segurtasuna kudeatzeko ezartzen duen politika, prozedura, kontrol eta arriskuen kudeaketaren multzo sistematikoa. |
 | **LOPDGDD** | LOPDGDD | Espainiako Datu Pertsonalen Babeserako eta Eskubide Digitalen Bermerako Lege Organikoa (3/2018 LO). |
-| **Margerit** | Margerit | CCN-CERTek garatutako arriskuen analisirako metodologia, ENS betetzeko erabilia. |
+| **Magerit** | Magerit | CCN-CERTek garatutako arriskuen analisirako metodologia, ENS betetzeko erabilia. |
 | **Mehatxua** | Amenaza | Sistema edo datuentzako kalte potentziala eragin dezakeen gertaera, nahita edo nahigabe. |
 | **NIS2** | NIS2 | Europar Batasuneko Zibersegurtasun Zuzentaraua (2022/2555), sektore kritikoen segurtasun-neurriak arautzen dituena. |
 | **NIST CSF 2.0** | NIST CSF 2.0 | AEBko NISTek argitaratutako Zibersegurtasun Markoa, sektore guztietako erakundeentzat baliagarria. |

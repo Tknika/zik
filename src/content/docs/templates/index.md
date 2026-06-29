@@ -86,7 +86,7 @@ Identifikatu 3-5 arrisku nagusi eta parekatu arintze-neurri sinpleak.
 
 ### Arriskuen analisia
 
-Margerit-en oinarritutako arriskuen analisirako txantiloia.
+Magerit-en oinarritutako arriskuen analisirako txantiloia.
 [Gida &rarr;](../identifikatu/)
 
 | Formatua | Deskargatu |

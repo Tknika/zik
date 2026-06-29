@@ -76,11 +76,11 @@ Bete **arriskuen zerrenda** (ez da analisi formalik egin beharrik). Identifikatu
 
 ### 4. Egin arriskuen analisi formala (gomendatua)
 
-Arriskuen zerrendatik haratago joan nahi baduzu, Margerit-en
+Arriskuen zerrendatik haratago joan nahi baduzu, Magerit-en
 oinarritutako arriskuen analisia eta CCN-CERTen mehatxuen katalogoa
 erabil ditzakezu:
 
-[Arriskuen analisia (Margerit)](/zik/templates/#arriskuen-analisia)  
+[Arriskuen analisia (Magerit)](/zik/templates/#arriskuen-analisia)  
 [Mehatxuen katalogoa (CCN-CERT)](/zik/templates/#mehatxuen-katalogoa)
 
 ### 5. Identifikatu hornitzaile eta hirugarrenak (ISO 27001 A.5.19–A.5.22)

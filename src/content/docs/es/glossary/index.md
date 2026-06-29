@@ -28,7 +28,7 @@ en euskera y con su equivalente en castellano.
 | **Intzidentzia** | Incidente | Evento que compromete la seguridad: filtración de datos, ataque de ransomware, acceso no autorizado… |
 | **ISO/IEC 27001** | ISO/IEC 27001 | Estándar internacional para la gestión de la seguridad de la información (SGSI). |
 | **LOPDGDD** | LOPDGDD | Ley Orgánica de Protección de Datos Personales y Garantía de Derechos Digitales (LO 3/2018). |
-| **Margerit** | Margerit | Metodología de análisis de riesgos desarrollada por el CCN-CERT, utilizada para el cumplimiento del ENS. |
+| **Magerit** | Magerit | Metodología de análisis de riesgos desarrollada por el CCN-CERT, utilizada para el cumplimiento del ENS. |
 | **Mehatxua** | Amenaza | Evento que puede causar un daño potencial a sistemas o datos, de forma intencionada o accidental. |
 | **NIS2** | NIS2 | Directiva de Ciberseguridad de la Unión Europea (2022/2555), que regula las medidas de seguridad en sectores críticos. |
 | **NIST CSF 2.0** | NIST CSF 2.0 | Marco de Ciberseguridad publicado por el NIST (EE.UU.), útil para organizaciones de todos los sectores. |

@@ -141,7 +141,7 @@ El ENS establece **tres niveles de seguridad**, según el tipo de información t
 |------|-----------|---------|
 | 12 | Política de seguridad | Documento aprobado por escrito, firmado por la dirección |
 | 13 | Organización e implementación | Responsable de seguridad, comité de seguridad (o equivalente) |
-| 14 | Gestión de riesgos | Análisis formal de riesgos (metodología Margerit recomendada) |
+| 14 | Gestión de riesgos | Análisis formal de riesgos (metodología Magerit recomendada) |
 | 15 | Gestión de personal | Requisitos de seguridad del personal y formación |
 | 17 | Control de acceso | Principio de mínimo privilegio, en consonancia con NIS2 |
 | 24–25 | Gestión de incidentes | Detectar, registrar y responder incidentes |

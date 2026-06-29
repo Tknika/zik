@@ -137,7 +137,7 @@ ENSak **hiru segurtasun-maila** ezartzen ditu, tratatutako informazio-motaren ar
 |------|------------|-----------|
 | 12 | Segurtasun-politika | Idatziz onartutako dokumentu bat, zuzendaritzak sinatuta |
 | 13 | Eraketa eta inplementazioa | Segurtasun-arduraduna, segurtasun-batzordea (edo baliokidea) |
-| 14 | Arriskuen kudeaketa | Arriskuen analisi formal bat (Margerit metodologia gomendatua) |
+| 14 | Arriskuen kudeaketa | Arriskuen analisi formal bat (Magerit metodologia gomendatua) |
 | 15 | Pertsonalaren kudeaketa | Langileen segurtasun-betekizunak eta prestakuntza |
 | 17 | Sarbide-kontrola | Gutxieneko pribilegioaren printzipioa, NIS2rekin bat datorrena |
 | 24–25 | Intzidentzien kudeaketa | Intzidentziak detektatu, erregistratu eta erantzun |

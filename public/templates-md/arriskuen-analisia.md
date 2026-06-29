@@ -1,6 +1,6 @@
 # Arriskuen Analisiaren Txantiloia
 
-Arriskuen analisiaren txantiloia, Margerit metodologian oinarritua. Bete atal bakoitza
+Arriskuen analisiaren txantiloia, Magerit metodologian oinarritua. Bete atal bakoitza
 zure ikastetxearen testuinguruarekin.
 
 ---
@@ -60,4 +60,4 @@ aztertu ea neurria **saihestu** (ez egin arriskua sortzen duen jarduera), **murr
 azpikontratatu) edo **onartu** (arriskua onargarria bada eta neurriak baino
 garestiagoa ez bada) nahi duzun.
 
-> Iturri ofizialak: CCN-CERT Margerit metodologia, INCIBE Arriskuen analisi gida.
+> Iturri ofizialak: CCN-CERT Magerit metodologia, INCIBE Arriskuen analisi gida.
