@@ -21,23 +21,20 @@ compliance:
   annexA_pct: 12
 ---
 
-Intzidentzia bat gertatzen denean —ransomware, phishing arrakastatsua,
-datu-filtratzea— **zer egin behar den jakitea** da. Bi elementu nagusi:
+Intzidentzia bat gertatzen denean (ransomware eraso bat, phishing bidezko kontu-konpromisoa edo datu-filtrazio bat), funtsezkoa da **zer egin behar den argi izatea**. Horretarako, bi elementu nagusi proposatzen dira:
 
-1. **Erabiltzaileentzat**: orrialde bateko gida, 4 pauso argirekin.
-2. **Arduradunarentzat**: erantzun-txartela, intzidentzia motaren arabera
-   nori deitu eta zer egin erabakitzeko.
+1. **Erabiltzaileentzat**: orrialde bakarreko dokumentu labur bat, jarraitu beharreko lau urrats nagusiak jasotzen dituena.
+2. **Arduradunarentzat**: intzidentzia motaren arabera hartu beharreko neurriak, intzidentzia motaren arabera nori deitu eta zer egin erabakitzeko.
 
 ---
 
 ## Zergatik da garrantzitsua?
 
-Intzidentzia baten aurrean, **lehen minutuetan hartzen diren erabakiek**
-kaltearen tamaina zehazten dute.
+Intzidentzia baten aurrean, **lehen minutuetan hartzen diren erabakiek** eragin zuzena dute kaltearen tamainan eta ondorengo berreskuratze-prozesuan
 
 - **RGPD**: datu-urraketa bat gertatuz gero, 72 orduko epean jakinarazi
-  behar diozu AEPDri.
-- **ENS**: intzidentzien jakinarazpena eskatzen du.
+  behar diozu kontrol-agintaritzari (AEPD).
+- **ENS**: segurtasun-intzidenteak dokumentatu, kudeatu eta, dagokionean, ezarritako prozeduren arabera jakinaraztea eskatzen du.
 
 ---
 
@@ -45,22 +42,19 @@ kaltearen tamaina zehazten dute.
 
 ### 1. Erabiltzaileentzako gida
 
-Bete eta banatu **erabiltzaileentzako intzidentzia-gida** — orrialde
-bakarreko dokumentua, 4 pauso argirekin eta arduradunaren kontaktua.
-Gogorarazi urtero (ikasturte hasierako klaustroan).
+**Erabiltzaileentzako intzidentzia-gida** prestatu eta banatu: orrialde bakarrekoa, lau urrats nagusirekin eta arduradunaren kontaktuarekin.
+Urtero gogorarazi: ikasturte hasierako klaustroan.
 
 [Deskargatu erabiltzaileentzako gida (DOCX/PDF)](/zik/templates/#erabiltzaileentzako-intzidentzia-gida)
 
 ### 2. Arduradunarentzako erantzun-txartela
 
-Bete **intzidentzien erantzun-txartela** zure datuekin. Txartel honek
-adierazten du intzidentzia mota bakoitzaren aurrean nori deitu eta
-zer egin:
+Bete **intzidentzien erantzun-txartela** zure erakundearen datuekin, intzidentzia mota bakoitzean nori deitu eta zer egin argi zehaztuz:
 
-- **Kritikoa** (ransomware, datu-urraketa) → Zuzendaritza + Cyberzaintza
+- **Kritikoa** (ransomware, datu-urraketa): Zuzendaritza + Cyberzaintza
   (900 104 891) + LHko Sailburuordetza/Tknika + AEPD (72h).
-- **Altua** (sarbide ez-baimendua, posta-erasoa) → Arduraduna + IT + Zuzendaritza.
-- **Ertaina/Baxua** (zerbitzu-etena, gailu-lapurreta) → Arduraduna + IT.
+- **Altua** (sarbide ez-baimendua, posta-erasoa): Arduraduna + IT + Zuzendaritza.
+- **Ertaina/Baxua** (zerbitzu-etena, gailu-lapurreta): Arduraduna + IT.
 
 [Deskargatu intzidentzien erantzun-txartela (DOCX/PDF)](/zik/templates/#intzidentzien-erantzun-txartela)
 
@@ -73,9 +67,7 @@ Gobernantza atalean sortutako kontaktuen zerrenda eskura izan
 
 ### 4. Gertaeren erantzun-plan osoa (gomendatua)
 
-Intzidentzia larri bat gertatuz gero, txartelaz gain plan oso bat
-behar duzu: detekzioa, sailkapena, edukiera, ikerketa, berreskurapena,
-komunikazioa, post-mortem analisia.
+Intzidentzia larrietarako plan osoa definitu: detekzioa, sailkapena, edukiera, ikerketa, berreskurapena, komunikazioa eta post-mortem analisia barne hartzen dituen prozedura egituratua ezarri.
 
 [Deskargatu gertaeren erantzun-plana (DOCX/PDF)](/zik/templates/#gertaeren-erantzun-plana)
 
