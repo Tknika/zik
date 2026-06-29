@@ -1,4 +1,4 @@
-![](Ejgv-hezkuntza.png){ width=300px } ![](logo_FP.jpg) ![](logo_tknika.png)
+![](/zik/Ejgv-hezkuntza.png){ width=300px } ![](/zik/logo_FP.jpg) ![](/zik/logo_tknika.png)
 # Arduradunaren izendapena — {{schoolName}}
 
 Data: {{appointmentDate}}<br>

@@ -1,3 +1,4 @@
+![](/zik/burukoa_jaurlaritza.png) 
 # Arriskuen Analisiaren Txantiloia
 
 Arriskuen analisiaren txantiloia, Magerit metodologian oinarritua. Bete atal bakoitza
