@@ -35,7 +35,7 @@ Zibersegurtasun-arduradunaren egiteko nagusiak:
 
 1. **Politikak ezartzea**: informazioaren segurtasunaren politika
    idatzi, eguneratu eta betearaztea.
-2. **Arriskuak kudeatzea**: arriskuen analisia egitea aldizka eta
+2. **Arriskuak kudeatzea**: arriskuen analisia aldizka egitea eta
    arintze-neurriak proposatzea.
 3. **Intzidentziei erantzutea**: segurtasun-intzidentzien koordinazioa
    eta Cyberzaintzari eta AVPDri jakinaraztea, beharrezkoa denean.
@@ -86,5 +86,4 @@ Sinadura: ________________________ &emsp; Data: _______________
 
 ---
 
-> Dokumentu hau automatikoki sortu da **Zik — Zibersegurtasuna Ikastetxeetan**
-> gidaren bidez. CC BY-SA 4.0 lizentziapean erabilgarri.
+> CC BY-SA 4.0 lizentziapean erabilgarri.
