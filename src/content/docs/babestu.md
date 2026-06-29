@@ -93,6 +93,21 @@ Ezarri babeskopia-politika bat (idatziz):
 
 [Deskargatu babeskopien politika-txantiloia (DOCX/PDF)](/zik/templates/#babeskopien-politika)
 
+### 5. Formakuntza eta sentsibilizazioa (ISO 27001 A.6.3)
+
+Babes-neurririk eraginkorrena pertsonen sentsibilizazioa eta prestakuntza da. Neurri teknikoek bakarrik ez dute nahikoa babesa bermatzen, erabiltzaile baten hutsegite batek segurtasuna arriskuan jar baitezake.
+
+- **Ikasturte hasieran**: gogoratu langile guztiei intzidentzien jakinarazpen-prozedura, pasahitzen arauak eta phishing-ari buruzko oinarriak. 
+- **Langile berriak**: konfidentzialtasun-akordioa sinatzerakoan, azaldu segurtasun-politikaren oinarriak.
+
+### 6. Segurtasun fisikoa (ISO 27001 A.7)
+
+Eraso digitalek arreta gehien jasotzen duten arren, kontrolik gabeko sarbide fisikoak neurri teknikoak alferrikako bihur ditzake.
+
+- **Zerbitzari-gela**: itxita eta giltzapean. Sarbidea soilik IT arduradunari eta zibersegurtasun-arduradunari.
+- **Mahai garbia**: dokumentu sentikorrak ez utzi mahai gainean — artxibatu edo birrindu. Ordenagailua blokeatu lanpostua uztean.
+- **Gailuak**: ordenagailu eramangarriak eta kanpoko diskoak ez utzi baimenik gabe atzitu daitezkeen lekuetan.
+
 ---
 
 ## Egindakoa markatu
@@ -108,6 +123,9 @@ Ezarri babeskopia-politika bat (idatziz):
 - [ ] Erabiltzaileen kudeaketa-erregistroa martxan (altak, bajak, berrikuspenak)
 - [ ] Babeskopien politika idatzi dut txantiloia erabiliz
 - [ ] Lehen berreskurapen-proba egin dut
+- [ ] Langileei urteko sentsibilizazio-saioa eman dut
+- [ ] Zerbitzari-gela itxita eta sarbidea mugatuta
+- [ ] Mahai garbia politika ezarrita (dokumentuak artxibatu, pantaila blokeatu)
 
 ---
 
@@ -115,7 +133,7 @@ Ezarri babeskopia-politika bat (idatziz):
 
 | Estandarra | Atala | Deskribapena |
 |-----------|-------|-------------|
-| NIST CSF 2.0 | PR.AA, PR.DS, PR.PS, PR.IR | Access control, data security, platform, resilience |
-| ISO 27001:2022 | A.5.15–A.5.18, A.5.37, A.8.2, A.8.3, A.8.8, A.8.13, A.8.24 | Atzipena, sarbideen kudeaketa, pribilegioak, prozedura dokumentatuak, eguneratzeak, babeskopiak, zifraketa |
+| NIST CSF 2.0 | PR.AA, PR.AT, PR.DS, PR.PS, PR.IR | Access control, awareness training, data security, platform, resilience |
+| ISO 27001:2022 | A.5.15–A.5.18, A.5.37, A.6.3, A.7.1, A.7.2, A.8.2, A.8.3, A.8.8, A.8.13, A.8.24 | Atzipena, sarbideen kudeaketa, sentsibilizazioa, segurtasun fisikoa, pribilegioak, eguneratzeak, babeskopiak, zifraketa |
 | ENS | 17., 20., 22., 36. art. | Atzipen-kontrola, eguneratzeak, babeskopiak |
 | RGPD | 32. art. | Segurtasun-neurri teknikoak eta antolakuntzakoak |
